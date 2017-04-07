@@ -127,5 +127,4 @@ def parse(id):
     	for i in range(leng):
     		writer.writerow([userData[i],positiveData[i],hourData[i],helpfulData[i],contentData[i]])
 
-for id in open("appId/appId_Action.csv"):
-    parse(str(id))
+parse(str(524220))
