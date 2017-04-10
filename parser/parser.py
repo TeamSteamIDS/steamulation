@@ -10,8 +10,10 @@ from selenium.common.exceptions import NoSuchElementException
 lang_es = webdriver.ChromeOptions()
 lang_es.add_argument("-lang=es")
 lang_es.add_argument("--kiosk")
-driver = webdriver.Chrome(chrome_options=lang_es)
-driver2 = webdriver.Chrome(chrome_options=lang_es)
+#driver = webdriver.Chrome(chrome_options=lang_es)
+#driver2 = webdriver.Chrome(chrome_options=lang_es)
+driver = webdriver.Chrome("chromedriver.exe")
+driver2 = webdriver.Chrome("chromedriver.exe")
 
 number=0
 #get total number of reviews
