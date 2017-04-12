@@ -1,0 +1,496 @@
+user name,positive or negative,total playing time,number of helpful,content
+http://steamcommunity.com/profiles/76561198119603056/,1,8.1 ,"
+				17 of 19 people (89%) found this review helpful6 people found this review funny			","er 22, 2014
+												Buy this game play it, play it again, NEVER STOP PLAYING IT! as there is always a joke or something in the backround that you always miss.			"
+http://steamcommunity.com/id/deadlyspider/,1,5.2 ,"
+				14 of 16 people (88%) found this review helpful1 person found this review funny			","er 28, 2014
+												Love these games, everything by telltales that I've played have been great but this especially so. While not as difficult as Hit the Road it still has some interesting puzzles to figure out.			"
+http://steamcommunity.com/profiles/76561198012529287/,1,7.3 ,"
+				60 of 66 people (91%) found this review helpful34 people found this review funny			","r 5, 2014
+												This game broke me. It broke my mind. The point where you have to discredit the renaimated statue of Abraham Lincoln by making him read ""cue cards"" and setting him up with a girlfriend... It killed my sanity. And thank god for that, it was really starting to cramp my style. Classic adventure gaming at it's weirdest and funniest.			"
+http://steamcommunity.com/id/murderbits/,1,2.0 ,"
+				34 of 41 people (83%) found this review helpful7 people found this review funny			"," 22, 2014
+												Your very traditional point-and-click adventure game with goofy characters, pun-based humor, and passable storylines. The whole is greater than the sum of its parts. If you like point-and-click adventure games that are light-hearted and fairly well-polished with your typical point-and-click puzzle elements, then it is hard to go wrong with any Sam & Max game. These are really terrific to throw on a low-powered laptop and play while you're watching television or waiting at the airport or otherwise needing some simple distraction.			"
+http://steamcommunity.com/profiles/76561198098574257/,1,4.4 ,"
+				28 of 31 people (90%) found this review helpful1 person found this review funny			","r 8, 2015
+												This series is FANTASTIC. I have played the other Telltale Games and even the original Sam & Max, and I adore this series. This first season is the weakest entry in the series, (with Devil's Playhouse contrastly being one of the best adventure games out there), but the series gets better and better with each episode. However, this does have a hard time running on Windows 10, and there is no patch for it from Telltale. If you don't feel like fixing the first two seasons yourself, at least go buy Season 3.From the excellent writing to the likable characters to the award-winning music to the excellent voice acting - including Roger Jackson of Powderpuff Girls and Scream fame - you can't miss this series. I love it, and a potential Season 4 is my most wanted sequel in gaming, (since Psychonauts 2 just got funded). EDIT: There IS a way to easily fix this on your Windows 10 computers! What you need to do is this...(credit to Kong)The following is working for me with Season 2 on Windows 10:Open the files folder for the game on your harddrive.Backup prefs.prop and all .save files.Delete those files from game folder.Run REGEDITGo to HKEY_CURRENT_USER\SOFTWARE\Telltale Games\Sam & Max Season 2Modify Windowed from 0 to 1Run game. It should now be running windowed!I had to play through one episode in a very compressed Windows mode, but by the next I was playing at full screen again!If you want full screen, follow this guide...Step 1 : You need to download and install Notepad++ from the following link:https://notepad-plus-plus.org/download/(NOTE - Didn't need to download Notepad, I had it already).Step 2 : Open up your Steam folder, by default it's in 'C:\program files (x86)\steam'. in the Steam folder you must go to '\steamapps\common' and there you must look for the 'sam and max' folders with the season and episode number behind it. Here you must open up the folder of one of the episodes that won't work for you.Step 3 : You might want to copy the 'prefs.prop' to a save place in case you break something in the next steps, but this is not required if you know what you are doing.Step 4 : Open the 'prefs.prop' for the Sam&Max episode that doesn't work for you by right clicking the file and selecting 'Edit with Notepad++' (or edit normally)Step 5 : The file opened will look unreadable at first and you must scroll the bar to the right to find the word 'Windowed' followed by the number 0. You could also use the Search option inside Notepad++ to locate this word. Now you only have to change the 0 to 1 and save the file. (In case there is no 'Windowed' in the file, rightclick the game in the library within Steam go to 'Properties', and then click on 'SET LAUNCH OPTIONS...' and enter -sw. Launch the game once, it will crash but the 'prefs.prop' should be altered and have 'Windowed0' in it again after opening it with Notepad++. after this remove the -sw from the launch options)Step 6 : Start the game, this is to check if the game runs in Windowed mode like it should. You can change the resolution to what you like, but never ever click the fullscreen option again or you will have to edit the 'prefs.prop' file once again.Now we can make the game run in Fullscreen using Borderless GamingStep 7 : Install Borderless Gaming and start it (after you bought it offcourse). After that go to 'Options' and make sure it starts every time you start Windows by checking 'Run On Windows Startup'. You could also go to 'Tools' and click 'Disable Steam Hook' to make sure Steam won't tell you are in-App Bordelless Gaming all the time each time Borderless Gaming is launched.Step 8 : Start Sam&Max in Windowed mode and in under the Applications window in Borderless Gaming you will see 'Telltale Games' appear. Click on that and then followed by the arrow pointing to the right so 'Telltale Games' will be visible under 'Favourites (automatic)'. Rightclick 'Telltale Games' in here and make sure that 'Fullscreen' and 'Auto-Maximize' are checked.			"
+http://steamcommunity.com/id/daerphen/,1,1.6 ,"
+				25 of 29 people (86%) found this review helpful			","ry 26, 2016
+												Fun point&click adventure. You are playing Sam (a freelancer police officer) and his sidekick Max. Solve a crime in each episode.+ fun+ short- you have to install every episode individually- starts with lowest screen resolution- needs fix for Windows 10I recommend this to every point&click fan. But maybe you want to grap it, when it's on sale			"
+http://steamcommunity.com/profiles/76561198042118407/,1,4.3 ,"
+				22 of 26 people (85%) found this review helpful1 person found this review funny			","er 25, 2013
+												If you're not sure whether you'd enjoy a point and click adventure game, Sam & Max provides the style and humor to carry you over til you know for sure whether you just hate the gameplay. Personally, I'd play it even if I despised adventures because of the characters and humor. Zany and sometimes not safe for kids is right up my alley. 4/5			"
+http://steamcommunity.com/id/Lewyboy/,1,2.6 ,"
+				19 of 22 people (86%) found this review helpful			","2, 2015
+												(Review counted as the Complete Sam and Max Seasons 1,2 and 3 HOWEVER seasons 1 and 2 currently do not work on Windows 10)Really entertaining and funny point and click adventure game. Though I admit I am a bit dumb when it came to puzzles in this game...often ended up looking up guides >w>  SHHHHH! In all honesty the puzzles (basicly everything you do in the game) are all well thought out so there isn't any super unrealistic answer to a problem that hasn't been hinted slightly in the game....Like pixel searching or using items together in a way that makes no sense to solve a problem.Get it if you love point and click adventure games because this is as good as it gets!! ^.^ As long as you dont mind 15 games appearing in your games library after only buying 3.....			"
+http://steamcommunity.com/id/Terror_King/,1,2.0 ,"
+				18 of 21 people (86%) found this review helpful1 person found this review funny			","2, 2014
+												A genuinely funny  and well written point and click game. The episodic nature makes it great for casual gamers, while the continuity between episodes makes and setting diversity makes playing all the episodes in one sitting a great experience.  The only problem I ever had with it was that once in a while even when I knew what to do it was difficult to get the sequence of events in just the right order to work out.  Overall 10/10 If this doesn't make you laugh nothing will.			"
+http://steamcommunity.com/id/PietsuFIN/,1,10.5,"
+				15 of 19 people (79%) found this review helpful1 person found this review funny			","y 15, 2014
+												THE BEST CLICK GAME THERE ISpersonaly im not a point and click fan at all but the humor in this game is something else.i laughed for many good hours and probably weeks with the whole game seriewould recomend this game to everyone who has a great taste to comedy even if your not a fan of click games			"
+http://steamcommunity.com/id/THE_BATPOOL/,1,2.3 ,"
+				35 of 56 people (63%) found this review helpful16 people found this review funny			","30, 2015
+												Better than the walking dead and the wolf among us combined.And it's definitley compatible with windows 10. In fact it's so compatible with windows 10 that it doesnt work. Your welcome random person in the comments.			"
+http://steamcommunity.com/profiles/76561198025151271/,1,6.5 ,"
+				12 of 14 people (86%) found this review helpful			","6, 2014
+												A very funny, well written point and click adventure game.  I probably enjoyed every moment this game had to offer.  Verdict:  If you like Telltale, Adventure, and Funny things, this game is for you.			"
+http://steamcommunity.com/profiles/76561198043562184/,1,5.4 ,"
+				9 of 10 people (90%) found this review helpful			","er 25, 2016
+												""Best use of a farm animal"" award			"
+http://steamcommunity.com/id/thatmanicdude/,1,1.8 ,"
+				9 of 10 people (90%) found this review helpful5 people found this review funny			","er 23, 2016
+												If laughter extends your life, this game will make you immortal			"
+http://steamcommunity.com/id/LuckyDice45/,1,2.6 ,"
+				9 of 12 people (75%) found this review helpful			","7, 2014
+												If you want to buy that one and you don't have the third season, buy the complete collection. You'll save some money. And if you have the third season from the bundle, buy the complete anyways.			"
+http://steamcommunity.com/id/MewWantsYourFish/,1,3.8 ,"
+				9 of 9 people (100%) found this review helpful10 people found this review funny			","ry 19
+												""Hey Sam, do you think people will find this review helpful? Or will they find the person who wrote it, tie them up by their ceiling fan, then beat them with a nail bat like a ketchup filled piñata?""""You crack me up little buddy.""			"
+http://steamcommunity.com/id/hairville/,1,2.0 ,"
+				10 of 12 people (83%) found this review helpful			","9, 2011
+												Sam and Max: Season one is your standard point-and-click adventure game using Steve Purcell's classic characters from the original 1987 comic. TellTale expands their universe in a 6 episode season premiere that will create a fun and interesting story. The voice acting is fantastic, the puns are plenty and the puzzles are, errrr...well...puzzling at times! It should be noted that season one does not support widescreen resolutions.			"
+http://steamcommunity.com/id/Mr3vil/,1,3.0 ,"
+				9 of 11 people (82%) found this review helpful			","5, 2014
+												Wow, the puzzles in this game, don't take the game lightly just because of the cartoonish look. Some of the puzzles or exploration are very difficult. You'll need the brain and perception of a Sherlock Holmes to complete this game without a guide.			"
+http://steamcommunity.com/id/maghook/,1,2.7 ,"
+				10 of 13 people (77%) found this review helpful			","3, 2012
+												Great series, great humour... if you're into that kinda oddball, quirky stuff. The controls are a bit awkward at times, and I had to use a walkthrough to get past a few ridiculous puzzles, but I had loads of fun. Really loved the various characters in each episode. You don't need to be a fan of the comic or television series to appreciate them. Each episode takes roughly 2 hours to finish and they're all quite different from the last, especially Reality 2.0. Probably best to wait for a big sale to get the complete pack.			"
+http://steamcommunity.com/id/9l9/,1,5.3 ,"
+				8 of 10 people (80%) found this review helpful3 people found this review funny			",", 2015
+AUDIOHilariousVISUALCheapDIFFICULTYModerateVIBEHumorousCRAVINGPoint & ClickON SALEOften BundledPROS: Pretty funny series, if a little cheesy. Fragmented episodes means each story can get plenty of attention without audio and voices being overly recycled. Laugh-out-loud musical numbers. The world changes as you progress through the episodes, so there are always new details to find. I appreciate the episodic approach in this so there were no temptations to recycle dialogue.CONS: The game does not like widescreen monitors. I had to restart my computer from the crashing twice before finding a way to get the episodes to boot in an undestructive fashion. This season was also extremely easy and offered very little challenge to neither a new point and click player nor a seasoned one.WORTH: Season 1 and Season 2 are always in awesome bundle deals, so waiting for a sale would be an advantageous move.OVERALL: Despite being absolutely no challenge, there's something to be said about a game that can make you laugh this much with such hokey humor. For some reason, the Sam & Max hasn't been dated as I expected. This duo is a lovable spin on the Good Cop, Bad Cop shtick, with both character being surprisingly complex for what seems to be a one-dimensional comedy series. I'd recommend it to anyone who is looking for a good laugh or is new to the genre.SCORE:9/10                                                                     Full Review Coming Soon "
+http://steamcommunity.com/profiles/76561198121429434/,1,64.4,"
+				7 of 9 people (78%) found this review helpful			","3, 2014
+												I've played all four seasons and it makes me wish they'd put Hit the Road on here.			"
+http://steamcommunity.com/id/7X7-CSBN-GG/,1,3.9 ,"
+				4 of 4 people (100%) found this review helpful			","ber 21, 2016
+												I recommend ALL Sam & Max they are great fun and I really like them.but be careful with Win10 as there is a few problems but nothing that so far cant be fixed manually...			"
+http://steamcommunity.com/id/thisisahiddenmessagecongratscunt/,1,3.8 ,"
+				5 of 6 people (83%) found this review helpful4 people found this review funny			","y 16
+												Sam Is My Spirit Animal			"
+http://steamcommunity.com/profiles/76561197971335825/,0,0.3 ,"
+				8 of 12 people (67%) found this review helpful1 person found this review funny			","er 16, 2015
+												I purchased and then promptly had to request a refund due to all of season one's episodes being unplayable in Windows 10. Not recommended for anyone running or LOOKING to run windows 10. FIX THE GAME TELLTALE!  "
+http://steamcommunity.com/id/walpurgis666/,1,3.0 ,"
+				3 of 3 people (100%) found this review helpful			"," 15, 2013
+												Awesome			"
+http://steamcommunity.com/id/MuirDragonne/,1,3.2 ,"
+				5 of 7 people (71%) found this review helpful1 person found this review funny			","er 20, 2010
+												Buy the entire ""season""! It's fun, puzzling, and the one-liners will have you giggling.			"
+http://steamcommunity.com/id/venarez/,0,2.7 ,"
+				25 of 46 people (54%) found this review helpful1 person found this review funny			","r 10, 2015
+												if you have windows 10 forget about playing this game, it's just not going to happen. Very not happy!			"
+http://steamcommunity.com/profiles/76561198045077428/,0,0.3 ,"
+				7 of 11 people (64%) found this review helpful			","er 31, 2015
+												Don't work on windows 10 ... -_-			"
+http://steamcommunity.com/id/crawlinuk/,1,3.8 ,"
+				9 of 12 people (75%) found this review helpful			","er 3, 2013
+												Having played the Devils Playhouse first, I wanted to experiance all the previous Telltale adventures of Sam & Max. Its defiantly not a dissapointing experiance, but after playing through I can see how they have improved through the seasons.Still worth picking up, these earlier adventure still have fun of finding items and using them in weird and wonderful ways, something I personally think is lacking in todays adventure games from Telltale.			"
+http://steamcommunity.com/id/virotti/,1,2.4 ,"
+				6 of 8 people (75%) found this review helpful			","y 27
+												Warning: This is NOT a game with QTEs, where you walk around to solve easy ""puzzles"" and make important decisions like the recent Telltale games. This is a classic, 90's-stlye point-and-click game with medium to hard puzzles and dialogues are only important to solve the puzzles,  (the story is quite linear).Tip: you need the Telltale Custom Resolution Tool to play the game in the reoslution you want (you cannot select modern monitor resolutions in the game): http://www.wsgf.org/book/export/html/5159I played the original (2D) Sam & Max game a long time ago, and it was a lot of fun. This 3D return is not the same thing, but if you enjoy Point and Click games and don't mind, when stuck, to check a walkthrough, you'll have a lot of fun. The plot is ridiculous but fun, and the dialogues are quite entertaining, as alll characters are well designed.Thumbs up from me!			"
+http://steamcommunity.com/id/zlutii/,1,1.7 ,"
+				2 of 2 people (100%) found this review helpful			","er 23, 2014
+												How come you don't have this game?			"
+http://steamcommunity.com/id/micheal-the-microphone-less/,1,2.9 ,"
+				2 of 2 people (100%) found this review helpful			","2, 2016
+												Damn. damn, damn, damn, This Game, Excuse Me, This Series, Excuse me, this Episodic Series, Excuse me. This Masterpiece.is just amazing. funny, fun, requires thinking (which i love). One Of The Best Games By Telltale.			"
+http://steamcommunity.com/profiles/76561198141926727/,0,0.1 ,"
+				32 of 61 people (52%) found this review helpful5 people found this review funny			","r 18, 2015
+												I bought the whole telltale collection mainly because of this game, but when i went on it all i get is a white screen.£135 wasted. PLZ FIX SAM AND MAX FOR WINDOWS 10!!!!!!!!!!!			"
+http://steamcommunity.com/profiles/76561198091893225/,1,3.6 ,"
+				6 of 10 people (60%) found this review helpful			","y 11, 2014
+												Love this game, it have a beautifoul gameplay and it's full of humor, i recomend to buy the complete pack for make the fun last longher			"
+http://steamcommunity.com/profiles/76561198067251868/,0,5.5 ,"
+				19 of 36 people (53%) found this review helpful			","r 20, 2015
+												This game does not currently work on windows 10. Do not buy it until Telltale fixes it. If they ever do.			"
+http://steamcommunity.com/profiles/76561198079730701/,0,1.0 ,"
+				7 of 11 people (64%) found this review helpful			","er 19, 2015
+												None of these games work on windows 10 and no one is providing a fix for the problems. I'm on a windows 10 HP Pavillion and everytime it launches it just shows a white screen and nothing else and won't ♥♥♥♥ing load anything. In other words. I wasted my money. If you have windows xp go for it, or else dodge the seasons entirely. Only games that work on other operating systems are the ones in season 3.			"
+http://steamcommunity.com/profiles/76561198205191727/,1,1.2 ,"
+				2 of 2 people (100%) found this review helpful			","ber 5, 2016
+												The Sam & Max games are some of my absolute favorites of the point and click genre. They have such a great sense of humor that'll keep you laughing until you finish them (I've finished the first 2 seasons on Xbox 360 years ago, don't let my low hours fool you). Sam & Max is probably the quirkiest telltale series and my favorite of theirs. If you like solving puzzles, interesting characters and witty humor, then give this game a try!			"
+http://steamcommunity.com/profiles/76561198069650691/,1,2.5 ,"
+				2 of 2 people (100%) found this review helpful			","y 7
+												This is, by far, my favorite of the 3 seasons available on Steam (I haven't played the first games in the series, so I can't say anything about them).  I think this is the one where the humor is at its best, the puzzles aren't too obscure, and, let's be honest, who doesn't love Hugh Bliss *ding*?  Would totally recommend to people who love wacky humor, or point and click adventure games, and definitely where you want to start if you want to get into this series.			"
+http://steamcommunity.com/id/Foxysen/,1,3.5 ,"
+				3 of 4 people (75%) found this review helpful			","1, 2015
+												Sam & Max: Season One is made of 6 point'n'click adventure games, connected by the plot of hypnosis.It's one of the first games to use episodic model of releases. And unlike many others, it used them with success, making TellTale produce more adventure games in similiar fashion. It also seems to be one of few games to be on Steam before it was cool.Oh, and it doesn't support widescreen. Sorry folks, 2007 year and all.Episodic model is also used in good and bad way, in a sense that you have common location and few common characters (outside of those that are unique to single episode) that keep reappearing in each episode. Sybil is most amusing, as she changes job every single episode. Such familiarity works nicely. But then, there are some negativity about it too, like, in the last episode you can suddenly pick up object that main hero refused to keep in all previous episodes.Graphics and music have style to them, even though they are a bit weak. Both of them. Well, or not so weak.Fine, music is nice, but more of staying in the background. And graphics are fine for cartoonish style. Lacks some good shadows though. But hey, was designed for low-end machines back then.It's quite usual old-schoolish point'n'click by gameplay and plot, following same mindset of ""puzzles are the main point"". Which isn't bad thing. Combined with expected humorous approach. Mature one even. You do get few hard puzzles that I am sure you would want to use at least some hints from the almighty Google. But at least you feel clever when solving some of harder ones, at least I did, when figured out Checksum puzzle.Did I mentioned humour?Actually, characters interaction and humour is one of the best in when it comes to ""old-school by being linear and humor-based"", outdoing most of older titles.It's a pretty nine series. Some may like it, some may not. Others will choke on rainbow bliss. From smiling too much.			"
+http://steamcommunity.com/profiles/76561197960284046/,1,1.0 ,"
+				4 of 6 people (67%) found this review helpful			","er 28, 2011
+												Awesome stuff! A lot to take in on the first episode but for following episodes try to pay attention to anything that has changed from the previous episode. That will help you figure out whats new and what you should be interacting with. Overall a great puzzle game, and very funny.			"
+http://steamcommunity.com/profiles/76561197976618936/,1,18.0,"
+				1 person found this review helpful			","1, 2016
+												If you like point n click adventures like Day of the Tentacle Buy this game Brilliant + funny			"
+http://steamcommunity.com/id/beautyyogurt/,1,4.1 ,"
+				1 person found this review helpful1 person found this review funny			","ry 10, 2015
+												Ah yes, the good ol' standby. Sam and Max. A roaring start to a great series. My standard for comedy point-n'-clicks. Now, is it any good? Well, considering the giant god damn thumbs up you should know.			"
+http://steamcommunity.com/profiles/76561198036983865/,1,3.2 ,"
+				1 person found this review helpful1 person found this review funny			","er 29, 2014
+												Just BRILLIANT. Wonderful dialogues and humor. Sometimes it's a bit easier than it should be and some episodes are a bit short, but it's a really good (and funny!)  game.			"
+http://steamcommunity.com/id/Coil_Whine/,1,5.3 ,"
+				1 person found this review helpful			","er 13, 2015
+												Awesome point n' click adventure game and Telltale's first series. Awesome humor and Soda Poppers FTW.			"
+http://steamcommunity.com/id/dunktownexpress/,1,4.7 ,"
+				1 person found this review helpful1 person found this review funny			","y 30, 2015
+												An extremely fun adventure full of action and witty humour. A must play from Telltale Games.			"
+http://steamcommunity.com/id/Strava/,1,1.3 ,"
+				2 of 3 people (67%) found this review helpful			","y 8, 2013
+												These clasic characters area favorite of mine and even non adventure gamers will enjoy them thoroughly. I don't know a single person that can't smile at what goes on in these games.			"
+http://steamcommunity.com/id/shawbag11/,1,2.1 ,"
+				1 person found this review helpful			","ry 1
+												Love this game but just a quick warning for anyone looking to play with windows 10. you have to mess about with the games TXT file in order to get it to work. something aobut it not likeing to be in fullscreen. but apart from that a deffinut 10/10 :3			"
+http://steamcommunity.com/profiles/76561198046882512/,1,3.1 ,"
+				1 person found this review helpful			","ry 20
+												A great game. I would have liked to have seen some more difficult hurdles to overcome and maybe even an extra hours gameplay would have kept me more happy. If you love point and click this episodic series looks like it could be good.			"
+http://steamcommunity.com/id/zatsunubi/,1,4.4 ,"
+				1 person found this review helpful1 person found this review funny			","ry 17, 2015
+												It is Hard to find the place to write this review ,because this game contain 6 separate (not in 1 game)Classic point&click game by TelltaleThe  story is good but kinda hard to know whats going on because it dont have any hints The way to play the game is think weirdy ,stupidly The story is great because you don't know what happen next "
+http://steamcommunity.com/profiles/76561198106882135/,1,3.2 ,"
+				1 person found this review helpful1 person found this review funny			","y 3, 2015
+												As of now I have only completed the first episode of Sam & Max season 1 which is Culture Shock and I enjoyed it! At first I thought a point and click game would be boring, but as I started playing this game I found that it was actually very fun. Sam and Max is a great game to play when you want to play a casual, fun, humourous game. It has clearly defined characters and diaolgue that made me chuckle more than a few times. One of my favourite character's is Bosco of Bosco Inconvenients, his overprotectiveness and the funny conversations he had with Sam and Max made me laugh! I recommend Sam and Max for players who like a bit of singleplayer, casual fun!			"
+http://steamcommunity.com/profiles/76561198270935679/,0,0.6 ,"
+				2 of 3 people (67%) found this review helpful			","er 24, 2015
+												DO NOT BUY IF PLANNING ON USING IT ON A WINDOWS 10 SYSTEM. Unfortunately I had glosed over it as I had been pining after the Sam and Max games for ages and when I saw them on sale jumped for my purse. I have only recently joined Steam, haven't spent my entire life purely confined to the worlds of playstation and after a few other games working perfectly, I did not research this game enough to realise buying it would be erroneous (especially as I had always been impressed by TellTale games). As I'm pretty much a n00b when it comes to computer gaming, it's going to take forever to figure out how to play these games, if they even will work at all.Completely blank white screen upon running of the game. The figure for gameplay time is completely misleading as I have not yet reached a title screen, let alone any gamplay. The 0.6 hours is made up of trying to start up the game dozens of times after installing things and following guides, all that haven't worked yet.			"
+http://steamcommunity.com/id/Nickelaos/,1,1.4 ,"
+				2 of 3 people (67%) found this review helpful			","er 12, 2016
+												Best detectives of all over the World.			"
+http://steamcommunity.com/id/KittenxSwag/,1,2.9 ,"
+				4 of 7 people (57%) found this review helpful			","er 28, 2013
+												Sam and Max Season One was a good beggining and is one of the best current day point and click adventure that i played in the modern gaming.			"
+http://steamcommunity.com/id/TiagoAngelelli/,1,3.0 ,"
+				4 of 7 people (57%) found this review helpful			","3, 2014
+												Um dos melhores e mais engraçados point and click que eu já joguei com uma trilha sonora do ♥♥♥♥♥♥♥!!!			"
+http://steamcommunity.com/id/TRCheese/,1,1.4 ,"
+				8 of 15 people (53%) found this review helpful			","7, 2013
+												Sam and Max is a moderately funny click adventure game that features a bunny and a dog as detective. The puzzles are simplistic, the humor is simplistic. If you are looking for profound dialogue and/or puzzles, you will not be finding it in season one.I was not too surprised to find out that Sam and Max, like most other click adventures, have no re-playability. However, I was surprised to find how dull episode 1,2,3 is in this series. The three episodes are chock full of simple fedex delivery puzzles with esoteric solutions. Good luck solving them without a walk-through. Luckily the game does pick up it’s pace by episode 4, and the game took a turn for the best. Puzzles solutions remain esoteric, but the results of solving the puzzles can create quite amusing consequences. You also will not remain stuck at your boring ♥♥♥ apartment block which is a plus!Telltale nailed the voice acting in this series. Intentionally annoying characters have intentionally annoying voices; you will feel like punching the screen every single time the soda poppers talk. Humor is not universal, so the jokes in this game can either strike you as “ROFL” quality or downright immature. Luckily none of the jokes are nearly as stupid or overused as the ones you find in Duke Nukem Forever.I recommend this game solely on the basis that’s a very well polished click adventure with a unique brand of humor. It’s not immersive or challenging, but it does make for a fantastic change of pace in between long sessions of Elder Scrolls, Counter Strike, DOTA 2, etc.			"
+http://steamcommunity.com/profiles/76561198049349725/,0,10.2,"
+				9 of 17 people (53%) found this review helpful			","er 28, 2015
+												No Windows 10 compatibility and no sign of developer support. Shame really...			"
+http://steamcommunity.com/id/monktimpo/,0,1.8 ,"
+				20 of 39 people (51%) found this review helpful			","r 9, 2015
+												Be careful when purchasing this game for those with windows 10. I haven't been able to play Season 1 or 2 because it contiues to crash on my computer			"
+http://steamcommunity.com/id/wolfganghype/,1,2.4 ,"
+				1 of 2 people (50%) found this review helpful			","er 27, 2012
+												A very amusing point and click adventure game. A psychotic rabbit running around with his freelance police partner.			"
+http://steamcommunity.com/profiles/76561198054447980/,1,15.6,"
+				1 of 2 people (50%) found this review helpful			","er 4, 2016
+												If you're like me and love clicking every little thing on the screen just to hear witty dialogue, and take everythign that isnt nailed down just because you can, than this game is for you. Each episode can be finished in about 2-3 hours, if you stop and smell the dialogue.The humor is in a comfortable grey area where it's not too kiddy and not too adult. Fun for everyone, but having patience and creativity in this game is a must for solving the puzzles.			"
+http://steamcommunity.com/id/elricofgrans/,1,1.8 ,"
+				1 of 2 people (50%) found this review helpful			","er 27, 2011
+												Though slow to start, once the series finds its stride you have one of the funniest experiences in gaming.  The puzzles are fairly straight forward and become somewhat formulaic, but this series is about its out-there plots and one-liners.  These it manages to a high standard.			"
+http://steamcommunity.com/profiles/76561198029857497/,1,3.2 ,"
+				1 of 2 people (50%) found this review helpful			",", 2012
+												It's quite fun for fans for the Sam and Max universe. The episodes become repetitive after a while. I just wish they wouldn't recycle the Soda Poppers for every single episode... B-			"
+http://steamcommunity.com/id/william0125/,1,2.7 ,"
+				1 of 2 people (50%) found this review helpful			","y 6, 2016
+												It maybe isn't as good as the recent telltate's games, but it's funny as hell.			"
+http://steamcommunity.com/id/Brandflip/,1,2.8 ,"
+				2 of 4 people (50%) found this review helpful			","9, 2014
+												Lots of fun and many fun things to do, i just love the silly and interesting things Max says. and also what it this game where you get items for Team Fortress 2?			"
+http://steamcommunity.com/id/vai90/,1,2.7 ,"
+				1 of 2 people (50%) found this review helpful			","y 10, 2013
+												The first season of the Sam & Max series by Telltale. You deal with hypnotized former child stars, a talk show host who has taken her audience hostage, the mafia, a rampaging ex-president, the internet and the mastermind behind all this madness. Very wacky adventure episodes, staying true to the 90's cartoon series and somewhat to the original point-and-click adventure by Lucas Arts, too.			"
+http://steamcommunity.com/profiles/76561198013899016/,1,4.2 ,"
+				1 of 2 people (50%) found this review helpful			","y 2, 2014
+												Pure insanity sums up this game quite nicely. Considering most triple AAA titles have weak plot points or bad writing, it is fun to see a game that does not take itself too seriously, knows how to have fun, and can challenge your puzzle skills. If you want crazy, funny irrelevance in your game, then this is the title for you.			"
+http://steamcommunity.com/id/CharlieLima79/,1,2.5 ,"
+				1 of 2 people (50%) found this review helpful			","r 6, 2012
+												'Sam & Max: Season One' was an admirable effort by Telltale Games in bringing Sam and Max back to PC gaming. While it was not as cohesive and funny as 'Sam & Max Hit the Road' (and it didn't support widescreen resolutions), it was still worth a play by fans of the old LucasArts game.			"
+http://steamcommunity.com/id/ragearainbow/,1,4.7 ,"
+				1 of 2 people (50%) found this review helpful			","3, 2011
+												So far I'm enjoying the pacing of the story the funny one liners and the characters. Theres not much to look at in the graphics they suite the game quite well in only upto episode 3 out of 6 I'd recommend this to any one who's looking for a story driven game and doesn't mind the point and click movement  8/10 Ps the number could change depending how the game had a whole plays out.			"
+http://steamcommunity.com/id/nothingness/,1,0.1 ,"
+				1 of 2 people (50%) found this review helpful			","r 21, 2011
+												Pretty good Point-and-Click Adventure game series. Doesn't have widescreen support, but you can find a work around for that. Voices, graphics, writing, and comedy is good. Each episode takes about 3-6 hours, depends on if you have hints on, trying to hear all the dialog, etc. Also you should be able to install Episode 4 for free: steam://install/8230			"
+http://steamcommunity.com/id/elricofgrans/,1,1.8 ,"
+				1 of 2 people (50%) found this review helpful			","er 27, 2011
+												Though slow to start, once the series finds its stride you have one of the funniest experiences in gaming.  The puzzles are fairly straight forward and become somewhat formulaic, but this series is about its out-there plots and one-liners.  These it manages to a high standard.			"
+http://steamcommunity.com/id/twosevenska/,1,0.4 ,"
+				1 of 2 people (50%) found this review helpful			","18, 2012
+												A nice game for both fans and begginers of this great franchise.The visuals are rough, but acceptable. However this gem shines in pure comedy alone. It manages to uphold the franchise in all its glory. The soundtrack is nothing astonishing but at the same time it fits quite well within the game. The plot is ridiculous and I love it for that.The episodic format is something Telltale knows how to use.			"
+http://steamcommunity.com/profiles/76561197968956752/,1,1.5 ,"
+				1 of 2 people (50%) found this review helpful			","r 2, 2014
+												✓ Goofy universe✓ Good humour overall✓ Excellent soundtracks✓ Good basis for the following seasons✘ Voice sampling is of somewhat poor quality for some reason.✘ Still no Linux support!			"
+http://steamcommunity.com/id/supersharkgod/,1,4.3 ,"
+				1 of 2 people (50%) found this review helpful			","ry 16
+												FAH!!			"
+http://steamcommunity.com/id/atomictoyrobot/,0,3.1 ,"
+				4 of 8 people (50%) found this review helpful			","28, 2016
+												Sam & Max doesn't work on windows 10 gg TellTale			"
+http://steamcommunity.com/id/Jammyget/,0,0.4 ,"
+				14 of 28 people (50%) found this review helpful			","er 10, 2015
+												Doesnt work win 10 waste of money .... cheers			"
+http://steamcommunity.com/profiles/76561198050927126/,0,5.7 ,"
+				15 of 30 people (50%) found this review helpful			","r 9, 2015
+												very fun and good game. iv played it many of times. only bad thing is its not compatible with windows 10. so when i updated to windows 10 it doesnt work anymore... i cant recommend a game i cant play anymore			"
+http://steamcommunity.com/id/Remixful/,1,2.4 ,"
+				5 of 10 people (50%) found this review helpful			","y 28, 2016
+												I used to play Sam & Max before I even knew about Steam. I remember picking up Season 1 (only Episodes 1-3) for $10 at Target, and I loved it. I bought the Sam & Max bundle on Steam a few weeks ago and I just finished Season 1. I've spent around 20+ hours on Season 1, it is definitely worth the money! I've had many laughs and really enjoyed playing this. This is by far one of the best point & click games I've ever played. It's unfortunate that not many people know about this amazing work of art.I'm looking forward to playing the rest of the series! ^3^10/10			"
+http://steamcommunity.com/id/kasser/,0,4.2 ,"
+				5 of 10 people (50%) found this review helpful1 person found this review funny			"," 1, 2016
+												I do love Sam and Max series and I strongly recommend them to anyone who like Adventure games.However, season 1 episodes are poorly compatible with Windows 10 and do not support widesceen. Although Windows 10 compatibility issue can be manually fixable (see discussion page), I believe Telltale should addresses these issues especially allowing the game to run in Window Mode by default since it was never made for widescreens.Anyway, this episode is my least favourite which is mainly why I voted Not Recommend. The Poppers characters are extremely annoying.			"
+http://steamcommunity.com/id/BrevonUltima349/,1,4.1 ,"
+				2 of 4 people (50%) found this review helpful			","er 17, 2014
+												This review is for all seasons of the Sam & Max video game series:Being a avid cartoon fan, I would've expected something as breakneck fast and energetic as the show. What we got from one of Taletale's earlier games is a bunch of moments that feel like Sam & Max after a long day of freelance crime-solving, and it's in 3D instead of Steve Purcell's lovely hand-drawn art style.The writing is fairly funny, but most of the experience just feels flat or shallow - probably better off buying the complete series on DVD rather than playing a game based off of it. Plus, Sam's new voice is annoying to listen to compared to the original voice actor Harvey Atkin - shame they couldn't get him for these games.Still, even if the game, the acting, the puzzles, and the story doesn't always seem appealing, it's an enjoyable, quirky Point & Click adventure to blaze through.The good news is that the writing improves slightly each season as well as the graphics. It's also amusing to see the same location altered due to the events of past game episodes as well as deviate to some new ones connected to the game's Main st.7/10: worth one playthrough, not much else.			"
+http://steamcommunity.com/profiles/76561198056205823/,1,5.4 ,"
+				2 of 5 people (40%) found this review helpful			","28, 2015
+												Our playthrough of Sam & Max Save the World. We will be returning for seasons 2 and 3.
+
+
+YouTube™ Video: Sam & Max Save the World | Episode 1: Say Cheese 
+
+			Views: 44		
+
+			Our first point and click game Buy Sam & Max Save the World on Steam: http://store.steampowered.com/app/901660/		
+
+ "
+http://steamcommunity.com/id/blockbun/,0,2.6 ,"
+				2 of 5 people (40%) found this review helpful			","ry 8, 2016
+												If you played the old Sam & Max and DoTT, this is more of the same. Good fun.DO NOT BUY this game if you're running Windows 10 or are planning to ""upgrade"".Ever since I switched, the episodes won't run. Compability mode for older versions of Windows doesn't work either.I can't recommend w/o this fixed. Wait for the revamp of DoTT instead!			"
+http://steamcommunity.com/profiles/76561198152737705/,1,3.5 ,"
+				0 of 1 people (0%) found this review helpful			","r 11, 2015
+												Telltale's iconic story telling, writing, and the point and click gameplay that they are known for. Good stuff.			"
+http://steamcommunity.com/id/meowhugs/,1,11.1,"
+				0 of 1 people (0%) found this review helpful			"," 30, 2015
+												Am I the only one who noticed that Whizzer got ""bottom billing""?			"
+http://steamcommunity.com/profiles/76561198122162964/,1,7.0 ,"
+				0 of 1 people (0%) found this review helpful			",", 2015
+												This game got me thinking and enjoying it :D			"
+http://steamcommunity.com/id/digitalanime/,0,5.2 ,"
+				3 of 8 people (38%) found this review helpful1 person found this review funny			","ber 21, 2015
+												Windows 10 fix please!			"
+http://steamcommunity.com/id/Ieatkidsforbreakfast/,1,3.4 ,"
+				2 of 5 people (40%) found this review helpful5 people found this review funny			",", 2015
+												You get to see a grown ghetto purple Murican guy change his nationality to British, French, Russian, to eventually turn into some basement dwelling weeb nerd half-orc abomination to the point where he snaps and changes his gender.  The best lore any game can offer.			"
+http://steamcommunity.com/profiles/76561198137410977/,1,2.8 ,"
+				0 of 1 people (0%) found this review helpful			","ber 6, 2015
+												Althrough gameplay wise it's your basic point-and-click adventure game, Sam & Max completley makes up for it with great writing, challenging puzzels, and of course hilarious dialogue between our main characters and the rest of the off-reality universe they live in. However I would recommend you buy the complete pack to truly get your money's worth, as I only bought Season 1 when it was on sale.			"
+http://steamcommunity.com/id/messydreamer/,1,3.8 ,"
+				0 of 1 people (0%) found this review helpful			","er 1, 2015
+												Sam & Max: Season One is an episodic point and click adventure game series that adapts the classic comic series into a game.  Unsurprisingly, this is a fantastic means to adapt the comic, as nothing suits the series inane and black comedy humor so well.  The first season has plenty to do and see.  While there's nonexistent consequences for making a wrong choice, it's still pretty great to see all of the seperate choices and the dialogue as a result. PROS: Fantastic adaption of the comic series. Lots of well written dialogue and jokes with some references to the original series Original story line 6 Episodes, all about 2-3 hours apiece, so about at least 12 hours total, depending on how fast you solve the puzzles.CONS: Each episode requires seperate settings, so you'll have to change them upon starting up. Sam walks everywhere, which can be annoying at times (this is fixed in the second season) Like with any starting series, the first episode is perhaps the most flat, with the voice acting for the title characters being weirdly flat and unlike the characters. Things thankfully get under way following the next episode and from there things go off the rails as a good Sam and Max series should. Like most adventure games, the logic can be weird at times, with some solutions requiring things you didn't know you can use.  (So i suggest keeping EVERYTHING that you can comment on in mind).  This is of course debatable since most people can probably solve it faster than others. Each episode is technically a standalone game, so you're gonna have a lot of titles in your library if you install them all.I got the entire three seasons for 10 bucks, so i can't say whether or not it's worth it for regular price.  I can say it's worth getting if you enjoy black comedy or are a fan of the series.  Very recommended.			"
+http://steamcommunity.com/profiles/76561198118836350/,1,6.0 ,"
+				0 of 1 people (0%) found this review helpful			","r 12, 2015
+												Sam and Max Season One was a great way to start of the series of course they graphic aren't up to date but then again this was released in 2007 so what can we expect the comedy is great,sarcastic,ironic,and a whole lot of fun the downsides are that there are some minor bugs and come in seperate games you have to download another thing was  that the walking is slow so getting to point a to point b and may get repetetive was but in the end the humor is good and story was interesting for people who like point and click and who are patient definitly get this game but if your a casual game play then i would recomend something like monkey island for people who dont really enjoy games like this more something like COD or CSGO then i still recomend this game because this game is hilarious and makes you enjoy it to its ful extent  but for me personally i enjoyed this game so much i give it a 9/10 because there are some bugs and kind of repetetive(barely) and and get kinda confusing I understand this is not a AAA(triple A title) but there is some repetetiveness and  trust me that repetetive parts in this game is VERY ANNOYING that so therefore it is a 9/10.			"
+http://steamcommunity.com/id/couchlion/,1,2.5 ,"
+				0 of 1 people (0%) found this review helpful			"," 22, 2015
+												Don't you just love it when they bring older games available on Steam and don't bother to patch them so that they work normally by just starting the game? Not even when the community has addressed the problem to developers and Valve (many cases can be found by googling). And these are not even that old games!Luckily the solution to get these Sam & Max games to work is simple this time: just set your screen resolution to 1028x960 or lower and the game launches fine to full screen. You can also try to be fast with Alt+Enter (to put the game in windowed mode) when you launch the game, but I found out that some of the objects and backgrounds weren't showing up properly this way.Telltale's Sam & Max games themselves are simplified classic point-n-click adventure games and I do recommended them for their humour and easy-going gameflow.			"
+http://steamcommunity.com/id/overfiend_87/,1,1.2 ,"
+				0 of 1 people (0%) found this review helpful1 person found this review funny			","ry 14, 2015
+												This is a hell of a fun series. This was the first season of the Sam & Max games and what I loved was that this brought Telltale Games into the limelight. It also brought back the much loved duo who hadn't been in a game since their old classis ""Sam & Max hit the road"" so I am so damn glad this was made.I origonally bought all the seasons off the Telltale website before they were made available on steam. What I love most about these games is they keep the humor, bring in new characters and they even have the origonal creator on standby to help with the development which I loved! Not to mention, the final villain is always a difficult one to discover.I believe that this was the series that put TellTale on the map and the fact that they even had the creator on board to help them with the game (much like how they had Michael J. Fox and Christopher Lloyd in Back to the Future) certainly made sure that they have become such a massive indy company now.			"
+http://steamcommunity.com/id/baconmucher/,1,4.1 ,"
+				0 of 2 people (0%) found this review helpful1 person found this review funny			",", 2016
+												Ten minutes into this game and you can't stop! it's really funny and a great game from Telltale. it came out in 2006 so yes it is 10 years old but it's worth it.			"
+http://steamcommunity.com/id/lincolntunnel/,0,3.4 ,"
+				5 of 13 people (38%) found this review helpful2 people found this review funny			","4, 2016
+												Season 1 does not run at all on Windows 10. It's a great game, but unless TellTale udates the game for Win10 compatibility, people who run Windows 10 shouldn't waste their money.			"
+http://steamcommunity.com/profiles/76561197972454665/,1,3.8 ,"
+				1 of 5 people (20%) found this review helpful			","ry 3, 2014
+												I lub it. <3			"
+http://steamcommunity.com/id/Xandiel/,0,2.4 ,"
+				1 of 5 people (20%) found this review helpful			",", 2016
+												This game does not work on Windows 10 without messing around in the preferences file first. Something that TellTale could easily update, but do not.			"
+http://steamcommunity.com/id/LLink24/,1,3.4 ,"
+				0 of 3 people (0%) found this review helpful			","er 22, 2011
+												This game is one of the few modern instances where a work labeled as ""comedy"" is actually funny.			"
+http://steamcommunity.com/id/Shin-MUTANT-Shredder-OVERLORD/,1,4.1 ,"
+				3 of 10 people (30%) found this review helpful			",", 2016
+												One of the best point and click adventure games on Steam.			"
+http://steamcommunity.com/id/Rhomega/,1,3.7 ,"
+				0 of 2 people (0%) found this review helpful			",", 2013
+												If you've played Back to the Future: The Game, Strong Bad's Cool Game For Attractive People, or Tales of Monkey Island, then you'll be familiar with Telltale's episodic structuring of their games.  Each episode seems to be isolated story-wise at first, but they do interconnect, and have consequences in Seasons 2 & 3.  I love visiting Bosco's Inconvience and Sybil Pandemik's office every episode, seeing what's new, dealing with Max's sociopathic attitude, and talking with the cheerful but mysterious Hugh Bliss, pushing his Prismatology cult.  Point-and-click adventure fans will love this season, and the rest too.			"
+http://steamcommunity.com/id/derpymuffins/,1,3.6 ,"
+				0 of 2 people (0%) found this review helpful			","4, 2016
+												Worked perfectly fine on Win10 for me.The low screen res is only a minor annoyance. Change it by pressing escape and going into options.Why is installing each episode individually a bad thing? It means more support for people with less space.			"
+http://steamcommunity.com/id/samjams/,0,0.3 ,"
+				0 of 2 people (0%) found this review helpful			","9, 2016
+												I love the Sam & Max game series and I always have fun playing it. It's funny, creative, has a nice art style, and has a cast of characters that I enjoy(except for the Soda Poppers, they're so ♥♥♥♥ing annoying they make me want to jab forks into my ears and scrape out my eardrums). It's one of TellTale's first games so it doesn't have the same quality writing that the newer ones such as TFTBL or TWAU have, but it's still pretty enjoyable and charming for what it is. For some reason, however, I'm having trouble playing this particular episode(I can play Season 3, though, and I haven't tried playing Season 2 yet but I'm sure it has the same problem). I'm guessing it's because I have Windows 10, so it'd be nice if this game could be updated because I have no idea how to fix this problem. I'm not too frustrated because I bought this game with the Sam & Max Complete Pack while it was on sale so it's not like I threw away too much money, but I'm still a bit disappointed. Don't get me wrong, I love this game. This series is one of my favorites from TellTale, but I just can't recommend it right now until this problem gets fixed. If it weren't for this one compatibility issue, I'd say it's worth the money if you're into silly cartoonish games just for the fun of it.			"
+http://steamcommunity.com/id/PunasaurusRex/,1,1.8 ,"
+				6 of 15 people (40%) found this review helpful			","er 21, 2013
+												Most people who have a game from this series have Sam & Max: The Devil’s Playhouse - from bundle site sales. But a good number do not have the season 1 or 2. This is another telltale game. So it's a point and click adventure  (for all you call of duty fanboys out there, there's very limited shooting involved in this game). This game is fun to play through I did all the parts in one go as Freelance Police - Sam and Max make their way to determine who is the mastermind behind all the hypnotism of people of earth. In order to do so you must become a TV star, defeat Abe Lincoln, become President of the United States, spend $1 trillion dollars on special items - that is a lot to do and so little time before the planet earth become victims of always being happy and optimistic (OOOHHH NO!!!)Another telltale game worth playing through :D			"
+http://steamcommunity.com/profiles/76561198079455287/,1,3.3 ,"
+				0 of 4 people (0%) found this review helpful			","er 19, 2014
+												Some of the puzzles are poorly made.That said, it's the best writing Telltale's ever done. And that is an accomplishment! 9/10			"
+http://steamcommunity.com/profiles/76561197971077889/,0,0.7 ,"
+				2 of 9 people (22%) found this review helpful1 person found this review funny			"," 22, 2016
+												Unfortunately the game does not start on Windows 10 without manual hoops to jump through :(The game is amazing, and I hate to downvote it but dag yo... GOG has it working :\			"
+http://steamcommunity.com/profiles/76561198099275658/,0,4.0 ,"
+				3 of 11 people (27%) found this review helpful			",", 2016
+												First off, if you have windows 10 then you will have problems running the game.I would have to say the game itself was definitely a shock and not in a good way. I apparently am not a huge fan of the Sam & Max humor. I found most of the game rather boring and not funny. The game felt like it was meant for a little kid as the story is extremely stupid. I regret buying this game and other telltale products, as Tales of Monkey Island was the only one with a decent story and humor.Pros:...Cons:Short Game (wait for this game that is a pro)Terrible StorylineLimited Area of TravelNot FunnySoda Poppers made me want to rip my hair out			"
+http://steamcommunity.com/profiles/76561198035643084/,1,2.5 ,"
+				1 of 11 people (9%) found this review helpful			"," 19, 2014
+												The First 6 Monthly Episodes of the Entire Sam & Max Trilogy. Sam & Max Save the World (Season 1) delivers the best in Point & Click Adventure Games. Season 1 revolves around various schemes to gain power by hypnotizing large amounts of people. Help Sam & Max Save the World in their first Exciting Season!In Episode 1, A group of former child stars, known as the Soda Poppers, are found causing trouble in Sam and Max's neighborhood.In Episode 2, Myra Stump; a television talkshow host, has taken her audience hostage. Sam and Max are called to defuse the situation.In Episode 3, The commissioner is looking into an underground operation at Ted E. Bear Mafia's-Free Playland & Casino, but the mole he sent in has suddenly gone quiet. To find the mole, Sam & Max must infiltrate the operation and become members of the Toy Mafia themselves.In Episode 4, Sam & Max must investigate the top man himself, the President of the United States, who has been passing inane mandates such as required hugs. Not only must the two take down the President, they may have to install their own man in his place, though Abe Lincoln may have a word or two about that.In Episode 5, People are being hypnotized by the Internet craze, causing systems around the world to go haywire. Sam and Max must find a way to enter the virtual world and track down the heart of the Internet herself to pull the plug on her shenanigans.And In Episode 6; The Season 1 Finale, Sam and Max must go to the moon in order to save the entire world from hypnotic enslavement.You can get Sam & Max S1-EP1 in Sam & Max Season 1: Sam & Max Save the World can be played on the PC/Xbox 360's Xbox LIVE & Wii Consoles!			"
+http://steamcommunity.com/id/dapeacce/,0,3.0 ,"
+				0 of 11 people (0%) found this review helpful			","er 26, 2016
+												Highly disappointing for a TellTale game. But of course, it is from 2006, so the ""game story tailoring"" engine may not have been in place.			"
+http://steamcommunity.com/id/81113/,0,2.4 ,"
+				6 of 26 people (23%) found this review helpful3 people found this review funny			","er 17, 2016
+												Does not work on Windows 10			"
+http://steamcommunity.com/id/rambleblamble/,0,3.4 ,"
+				4 of 26 people (15%) found this review helpful7 people found this review funny			"," 24, 2016
+												i wanted to ♥♥♥♥ max but the game wouldnt let me 43/15			"
+http://steamcommunity.com/profiles/76561198138930194/,1,2.0 ,"
+				No ratings yet			",", 2016
+												YES! THEY FIXED IT! THANK YOU! Now we can finally replay the funny, charming and oh so smart Sam and Max season 1 and 2! While not as polished as season 3 it's still clever, it's still appealing and it's still fun to play, if you haven't played a point and click before start with this, it gives you time to think, failing is impossible (whether thats a good thing or a bad thing I don't know), but it's still challenging and you really have to think to figure these puzzles out. If you're not interested, then give it a go, it might surprise you.			"
+http://steamcommunity.com/id/GDwarf/,1,2.4 ,"
+				No ratings yet			","er 21, 2010
+												The entire revival of the Sam & Max games was rather unexpected, but has worked out like a dream. This first ""season"" takes a bit to get its legs under it, and never really reaches the same level as the later two, but it's still highly enjoyable and sets up much of the future plot.			"
+http://steamcommunity.com/id/Llobster12/,1,3.0 ,"
+				No ratings yet			","y 29, 2012
+												Anyone who grew up with Sierra and Lucas Arts adventrue games will love this whole season. The dialogue and scenarios are hilarious and each episode gets better than the last one. When I played episode 4: Abe Lincoln Must Die!, I thought that it couldn't get any better. Then I got to episode 5: Reality 2.0. Just this episode by itself is one of my favorite adventure games of all time. Absolutely brilliant, I was constantly stopping and sitting back throughout the episode thinking how amazing it was. You need to play this			"
+http://steamcommunity.com/profiles/76561197973676790/,1,2.7 ,"
+				No ratings yet			","er 23, 2015
+												This is one of the most fun and funny game I played. It maby behard at first but ist fun.			"
+http://steamcommunity.com/id/FrankLockes/,1,7.1 ,"
+				No ratings yet			","er 17, 2015
+												Fun Pun-Based Puzzle game with great graphics! Must be very clever to figure out puzzles for each episode. Overall great, funny game. ★★★★★★★★★★ 10/10 stars recommended.			"
+http://steamcommunity.com/profiles/76561197999212057/,1,52.1,"
+				No ratings yet			","er 29, 2015
+												It is really awesome because the cases get intressting.			"
+http://steamcommunity.com/id/The_Enquirer/,1,2.6 ,"
+				No ratings yet			","er 2, 2015
+												It comes with 5 episodes, each one will end up taking you between 2-4 hours (just over 2 for me was the average and about 3.5 was the max). This is one of very few puzzle games I'd say it's acceptable to use a guide for.In terms of gameplay, it's a point and click adventure game with a wonderful sense of humor. Even if you aren't into point and click adventure games, it's worth buying on sale just to listen to the dialogue.In addition to that, I'm still playing on Windows 7, and there have been quite a few reported problems with the Windows 10 version, so before buying look up to see if there are any fixes for it available.			"
+http://steamcommunity.com/profiles/76561198007142965/,1,2.1 ,"
+				No ratings yet			","9, 2016
+												Holy jackhammering Jack the Ripper in a rib cage made of whale bone ersatz!It's the Season One of Sam & Max!			"
+http://steamcommunity.com/id/delet0r/,1,1.7 ,"
+				No ratings yet			","ber 15, 2012
+												I really loved all of the Sam& Max Seasons. I really can recommend them all.			"
+http://steamcommunity.com/id/ElliotSquire/,1,4.8 ,"
+				No ratings yet			",", 2015
+												buny			"
+http://steamcommunity.com/id/bryonfurwolf/,1,2.1 ,"
+				No ratings yet			","er 19, 2015
+												I love the game, the cartoon show and even when they did poker. I knew I should of done this review sooner but Sam and Max will always be my favorite Freelance Police members. Also even got two pairs of keychains that they came out with on Amazon sometime this year. They're so adorable on my key ring. ^^			"
+http://steamcommunity.com/id/bawdiepie/,1,2.4 ,"
+				No ratings yet			","17, 2016
+												Good game, funny. You have to like point and click style games though. Plenty of guides available if you get stuck but not needed so far as puzzles seem fairly logical(!).  Works fine for me on Windows 10, so perhaps it's been patched since other review people had issues.			"
+http://steamcommunity.com/id/uthersonl/,1,2.4 ,"
+				No ratings yet			","4, 2016
+												Short, small-scale comedy point-and-click. It takes between an hour and two-and-a-half hours per episode as the episodes become more complex and the puzzles more abstract. I enjoyed it thoroughly, though. A word of warning: it may look child-friendly, but at times it is not, and the writing doesn't feel like it was ever intended to be.			"
+http://steamcommunity.com/id/FrankLockes/,1,7.1 ,"
+				No ratings yet			","er 17, 2015
+												Fun Pun-Based Puzzle game with great graphics! Must be very clever to figure out puzzles for each episode. Overall great, funny game. ★★★★★★★★★★ 10/10 stars recommended.			"
+http://steamcommunity.com/profiles/76561197973676790/,1,2.7 ,"
+				No ratings yet			","er 23, 2015
+												This is one of the most fun and funny game I played. It maby behard at first but ist fun.			"
+http://steamcommunity.com/id/AshaiTides/,1,1.1 ,"
+				No ratings yet			",", 2015
+												Gut-bustingly, laugh-out loud funny.  Perfect if you like rapid-fire humor!  The audio quality of the voices is a little poor, though.			"
+http://steamcommunity.com/profiles/76561197999045600/,1,3.2 ,"
+				No ratings yet			","er 20, 2015
+												I played the entire season before writing this.  It's very funny and the dialogue is excellent.  It's one of the newer point-and-click adventure series, though it's actually one of Telltale's older games because it was made during 2006-2007.  However, I see it as ""newer"" because it's broken up into smaller chunks and doesn't require you to pick up that many objects.  Older adventure games usually pack your inventory with all kinds of things and some serve no purpose in solving the puzzles.  Like many other Telltale games it's split into episodes, so I will summarize what I think of each one:Episode 1:  It introduces you to the characters and emphasizes the hypnosis theme which is prevalent in all the episodes but especially in this one.  The Soda Poppers are funny but a little creepy, and the main enemy is pretty silly.  I liked this episode alright but it's not the best one.  Episode 2:  You again deal with a hypnotized person, but before that you have to succeed in a variety of TV shows.  This is is one of the funniest episodes and I highly recommend it, especially since you don't have to go back and forth between areas quite as much. Episode 3:  Funny if you like Chuck E Cheese parodies, but ultimately I didn't like the main enemy in this one.  I didn't get a sense of what I needed to do in this episode quite as much. Episode 4:  Well, if you ever wanted to meet Abe Lincoln here is your chance.  This episode makes pokes fun at the American government a lot and the best part involves a campaign speech you have to sabotage.  It's one of my favorites for sure.  Episode 5:  This one has a lot of old-school video game references so I found it very amusing.  The main enemy reminds me of SHODAN slightly and the colorful environments are quite attractive.  This is probably my second-favorite episode next to Episode 2. Episode 6:  You finally find out who is behind all the hypnosis issues and well, it's not particularly surprising.  It's a trippy episode and fun if you hate silly New Age philosophy cults.  Overall it's a pretty hilarious adventure game, though it doesn't offer the challenge that the older adventure games did.  Also, this game is quite old now and the 3d graphics are somewhat underwhelming.  Even so, this is a good place to start if you are curious about Sam & Max and want to play a comedy game.			"
+http://steamcommunity.com/id/Nepetacatnip/,1,2.4 ,"
+				No ratings yet			",", 2015
+												Season 1 is witty and funny especially Max the brain dead rabbit who is kind of crazy. ::::)			"
+http://steamcommunity.com/profiles/76561198077847166/,1,3.1 ,"
+				No ratings yet			","er 23, 2014
+												This Game Is very good much like the twd its  very fun why would you not buy this game well... unless you dont like this style of games			"
+http://steamcommunity.com/profiles/76561198116705266/,1,4.4 ,"
+				No ratings yet			","8, 2015
+												This is one of the most original games I've every played, in terms of the comedy. They hav a freaking song that comes out of nowhere, for crying out loud. Give it a shot you will not be dissapointed			"
+http://steamcommunity.com/profiles/76561198091903745/,1,0.1 ,"
+				No ratings yet			","0, 2015
+												Welcome to one of video games classics. It's been more than 20 years since I last played Max & Sam, but it is still sarcastic, hilarious and better than any sit-com on TV these days.Puzzles are easily solvable with common konwledge and combination of itmes. Best part is that they game is divided in epidodes, that way you do not feel obliged to play hours on end to finish it.Videogames these days might look prettier, but if you are looking to enjoy yourself with an ""interactive comedy show"", this has it all.			"
+http://steamcommunity.com/profiles/76561198054006923/,1,13.7,"
+				No ratings yet			",", 2015
+												My first experience with Sam and Max can from a sale on the PS network for the 3 season and hook me enough to track down the first and second season on steam, right from the get go I can tell you S&M (yes that's its abbreviation) it wacky hijinks of a dog and rabbit freelance police as they try to solve crimes in overly complicated ways usually cause even more problems then they solve, the first season is cut into 6 mini point and click adventure games, over all there not to terrible hard, most solution being fairly easily found so long as you've identified all interact able places but can over all lead to at least 20-30 hours of fun with characters that are hard to not love. overall for season 1 9.5/10			"
+http://steamcommunity.com/id/Bramnet/,1,3.8 ,"
+				No ratings yet			",", 2015
+												I didn't know what to expect for this game. All I knew is that it was made using the Telltale Tool and I really enjoy the games that use that as an engine. That said, I LIKED this game... I didn't love it, but I did really like it. The ending was a little ""short"" or ""anti-climatic"" and that might be because I had to use a guide for half of the game, you really have to think like the main characters. But I really liked the dark humor that this game season is, I love the jokes, I still listen to the music on loop, (there are musical numbers!) and I am surly going to play the next season. If you like Film Noir and games that poke fun at Music, Games, Politics, and Cults... You will enjoy this game.			"
+http://steamcommunity.com/profiles/76561197999212057/,1,52.1,"
+				No ratings yet			","er 29, 2015
+												It is really awesome because the cases get intressting.			"
+http://steamcommunity.com/id/AshaiTides/,1,1.1 ,"
+				No ratings yet			",", 2015
+												Gut-bustingly, laugh-out loud funny.  Perfect if you like rapid-fire humor!  The audio quality of the voices is a little poor, though.			"
+http://steamcommunity.com/id/higon/,1,2.4 ,"
+				No ratings yet1 person found this review funny			","er 24, 2011
+												Good old adventure game in 3D. brainf**king silly conversation is thought provoking as well. The best episode is the fourth one. ""Abe Lincoln Must Die!""			"
+http://steamcommunity.com/id/noneEggs/,1,4.7 ,"
+				No ratings yet1 person found this review funny			","23, 2015
+												""Do you have any...""			"
+http://steamcommunity.com/id/arleas/,1,2.6 ,"
+				No ratings yet			",", 2011
+												I have to say, when I originally started this I didn't think i would like it.  It turned out that this was one of those game/series that really was enjoyable.  Bosco and Sybil both had a way of making each episode funny.    Best of all, when you decide to go for Sam and Max season 2, you'll have an idea of how everything happened, because as stuff happens to the neighborhood, they leave it that way for the next epiosde.Very funny stuff.			"
+http://steamcommunity.com/id/zippy29/,1,2.2 ,"
+				No ratings yet			","3, 2011
+												First thing, off the bat.  Sam & Max is great.  They've ALWAYS been great.  Since the BEFORE TIME (pre-interwebs.)There's a very old definition of ""(graphic) adventure game"", also from the BEFORE TIME, that revolved around millions of items and dozens of commands and long hours of trying everything on everything.THIS GAME IS NOT THAT.This whole Telltale thing, Sam & Max Save the World (Season One) is a phenomenally produced game whose play isn't so brain bending annoying, and the humor and story is absolutely stupendous.  It's more like experiencing an animated comic book.  The set story and path to completion obviously hurts replay value, but this is a game that does not need it; same as the words in your favorite book not changing or the scenes in your favorite movie, one playthrough justifies all time and money spent.			"
+http://steamcommunity.com/profiles/76561198067577760/,1,3.5 ,"
+				No ratings yet			","28, 2015
+												i use to hit point and clack games; tell tale was the only company that confase point to clack can be good games if done right.seassin 1 was my fivate, that it makes all soughts of piltical jokes, like the prestent is rewning the enverment,max: beg duil wew do the same. sam: now the presdent wants do to mantrery gun restgien. max: get the kays.i just love the funner persilty, that those 2 has to offer.cons: there is no mac point however can be played under crossover games.it does not support screen resteanes higher tune 1014 over 800.the hint system is not good anove; to not go get hilp online.sam & max episode 2,3,4 even 5 are pointless becuse seasin 1 and 6 has the same storylinr that you can seip 4 episodes to get the draft of the game. compard to seasion 2; it is no new nwer porttable.even with all of those cons. I stell songly recomed people trying this outsecally from Wright Micah			"
+http://steamcommunity.com/profiles/76561198054006923/,1,13.7,"
+				No ratings yet			",", 2015
+												My first experience with Sam and Max can from a sale on the PS network for the 3 season and hook me enough to track down the first and second season on steam, right from the get go I can tell you S&M (yes that's its abbreviation) it wacky hijinks of a dog and rabbit freelance police as they try to solve crimes in overly complicated ways usually cause even more problems then they solve, the first season is cut into 6 mini point and click adventure games, over all there not to terrible hard, most solution being fairly easily found so long as you've identified all interact able places but can over all lead to at least 20-30 hours of fun with characters that are hard to not love. overall for season 1 9.5/10			"
+http://steamcommunity.com/id/RobTon/,1,2.4 ,"
+				No ratings yet			","ry 17, 2016
+												This was a nice change to play from what Telltale puts out these days. Their old games focus more on a linear story, point and click adventure. Rather than having choices that changes the outcome of the game. The challenge here is to gather things and use logic(most of the time…) to find out what items and dialogue triggers what. and you have to do a lot or going back and forth between locations in the game.I had to resort to guides online multiple times, at first I thought I was getting stupid, but then I realized I’ve gotten spoiled by newer games. In the end it kinda took me back, and I rather enjoyed playing through it.I had NO knowledge or prior experience with Sam & Max apart from the Poker games from Telltale, so the terrible jokes(which I like…), references and the way they solve crime blew me away. Not recommended if you are after a “immersive and realistic” type of game.As for the technical aspect, this is an old game. The engine is outdated and only supports 3 resolutions(at least it did for me, 1024x768 was the highest it would go), this game also ran at 40-50fps max. But it was nothing I really didn’t expect from a game this old, it still played nicely. But if you are running Windows 10 however, it seems like you aren’t gonna be able to play. The support section is filled with those complaints.So all in all, a fun game series which takes me back, is packed with terrible jokes and references. And doesn’t cost much compared to what you get out of it.(If you aren’t on Win10 that is, then don’t bother…) So I recommend it a lot.			"
+http://steamcommunity.com/profiles/76561198091903745/,1,0.1 ,"
+				No ratings yet			","0, 2015
+												Welcome to one of video games classics. It's been more than 20 years since I last played Max & Sam, but it is still sarcastic, hilarious and better than any sit-com on TV these days.Puzzles are easily solvable with common konwledge and combination of itmes. Best part is that they game is divided in epidodes, that way you do not feel obliged to play hours on end to finish it.Videogames these days might look prettier, but if you are looking to enjoy yourself with an ""interactive comedy show"", this has it all.			"
+http://steamcommunity.com/id/xandrumbledore/,1,3.3 ,"
+				No ratings yet			","er 18, 2015
+												I bought this game (starting with season 1) because i remember playing S&M first on floppy disks, then eventually on CD-ROM with Sam & Max: Hit the Road. I loved those games, and they are some of my favorites from that era of gaming. These games completely live up to that sense of adventure and whimsey. Never have i played a reboot of a series that so accurately captured the look and feel of the original, while adding new content to the series. If you were a fan of the games, or at least the point&click genre, from that time.. do yourself and favor and pick up this game. Also, i am a Windows 10 Pro x64 user, and have had no troubles running the game. Not sure what others' issues are, but i put the game's executable in compatibility mode with Vista and everything runs as smooth as hot butter running down Max's supple, yet firm, back.			"
+http://steamcommunity.com/id/zippy29/,1,2.2 ,"
+				No ratings yet			","3, 2011
+												First thing, off the bat.  Sam & Max is great.  They've ALWAYS been great.  Since the BEFORE TIME (pre-interwebs.)There's a very old definition of ""(graphic) adventure game"", also from the BEFORE TIME, that revolved around millions of items and dozens of commands and long hours of trying everything on everything.THIS GAME IS NOT THAT.This whole Telltale thing, Sam & Max Save the World (Season One) is a phenomenally produced game whose play isn't so brain bending annoying, and the humor and story is absolutely stupendous.  It's more like experiencing an animated comic book.  The set story and path to completion obviously hurts replay value, but this is a game that does not need it; same as the words in your favorite book not changing or the scenes in your favorite movie, one playthrough justifies all time and money spent.			"
+http://steamcommunity.com/id/Trip_Kiddo/,1,2.1 ,"
+				No ratings yet			",", 2016
+												Happy I'm finally getting to replay this series. This is an absolute classic point-and-click adventure game, and has tons of laughs. If you're a fan of the genre you can't not get this game.			"
+http://steamcommunity.com/profiles/76561198051478401/,1,1.7 ,"
+				No ratings yet			","6, 2016
+												This game was my first introduction to Sam and Max. Let me just save you some time and tell you to go ahead and by every game in this series. You're going to end up doing it anyway after you play this game.			"
+http://steamcommunity.com/id/happy_burger/,1,2.9 ,"
+				No ratings yet2 people found this review funny			","7, 2016
+												3 games (each episodic) for 10 american dollars ($10)Greatest point and click-a-ly-click game of all time. Ranks above carmen san-francisco.			"
+http://steamcommunity.com/profiles/76561198035621877/,1,14.4,"
+				No ratings yet			"," 2016
+												Sam & Max Windows 10 will play now.			"
+http://steamcommunity.com/id/ElliotSquire/,1,4.8 ,"
+				No ratings yet			",", 2015
+												buny			"
+http://steamcommunity.com/id/arleas/,1,2.6 ,"
+				No ratings yet			",", 2011
+												I have to say, when I originally started this I didn't think i would like it.  It turned out that this was one of those game/series that really was enjoyable.  Bosco and Sybil both had a way of making each episode funny.    Best of all, when you decide to go for Sam and Max season 2, you'll have an idea of how everything happened, because as stuff happens to the neighborhood, they leave it that way for the next epiosde.Very funny stuff.			"
+http://steamcommunity.com/id/GBChristmas/,1,4.7 ,"
+				No ratings yet			","0, 2016
+												Sam & Max is an interactive game about, well Sam & Max a silly freelance policeman, as you play as Sam and witness they're shenanigans while supposedly doing a police work.Let's go to the Options in game:This game is pretty old, so don't expect very artistic or incredible graphics. You can switch between Low and High settings for the graphicsYou're stuck in 4:3 aspect ratio which mean you'll be playing in square.. view and which also mean the resolution in game only offer you some square resolution (maximum resolution 1280x960).Sound was okay you could tweak three option provided which is Music, Voices, and Sound Effect. Though I don't see why would you want to tweak the settings of this pretty old game.And next is the Gameplay:Gameplay is pretty simple, there's not much control but that's fine since the game doesn't do much except telling you story and interact with stuff.Now apparently this game doesn't remind you what to do exactly by using like some quest pointer or so, so you wouldn't exactly know what to do, but not to worry because the game will provide you with some sort of hint on what to do which can be earn by talking to characters or interacting with something by using something (well most of the time)While in the game they gonna do some cartoonish action so expect cartoon level jokes, which is pretty funny (at least to me).Verdict:While this may looks obvious already but the game is for kids (or so I think) in which case it doesn't have to be taken too seriously. The game is suitable for everyone. The game is about humour and fun so I say it again, don't take it too seriously, by this I mean like start ranting randomly like ""The graphic is bad! blablabla"".The game doesn't provide a good replay value sadly (at least for me), but that doesn't mean you could not replay it. And still have a small laugh with itI recommend this for everyone who likes cartoon and don't mind spending some money on a small time entertainmentI strongly recommend this to anyone who have younger relatives (like little kids, or preschooler level or so) and let them play in his/her computer, because apparently his/her computer have games on it and quite many kids want to play on the computer			"
+http://steamcommunity.com/id/gasolinameowmeow/,1,0.5 ,"
+				No ratings yet			","ry 12, 2016
+												For those who own Windows 10 and the game won't work, you can try this: Change your screen resolution to 800X600 before run the game and it should work (at least it worked in my case).Then turn off its fullscreen option in the game and save.Quit the game and you can change your resolution back.The next time you run the game, it will work properly in windowed mode.Hopefully it could help you.			"
+http://steamcommunity.com/id/RealBonnie/,1,2.7 ,"
+				No ratings yet			","14, 2016
+												Great point-and-click adventure game with likeable characters and a nice story. Just be advised that it doesn't run on Windows 10.			"
+http://steamcommunity.com/profiles/76561198007142965/,1,2.1 ,"
+				No ratings yet			","9, 2016
+												Holy jackhammering Jack the Ripper in a rib cage made of whale bone ersatz!It's the Season One of Sam & Max!			"
+http://steamcommunity.com/id/delet0r/,1,1.7 ,"
+				No ratings yet			","ber 15, 2012
+												I really loved all of the Sam& Max Seasons. I really can recommend them all.			"
+http://steamcommunity.com/profiles/76561197999212057/,1,52.1,"
+				No ratings yet			","er 29, 2015
+												It is really awesome because the cases get intressting.			"
+http://steamcommunity.com/id/omegasnorlax/,1,3.1 ,"
+				No ratings yet			","0, 2016
+												Very funny and original point n click dventure game. Sometimes you'll get stuck on certain parts but it's not impossible. Having a blast playing through the whole series!			"
+http://steamcommunity.com/id/subscribe2keemstar/,1,4.0 ,"
+				No ratings yet			","er 25, 2016
+												Its a really good series worth your precious time and money, use those and play this game when its on sale, or buy it for full price if you're a madman.			"
+http://steamcommunity.com/id/uthersonl/,1,2.4 ,"
+				No ratings yet			","4, 2016
+												Short, small-scale comedy point-and-click. It takes between an hour and two-and-a-half hours per episode as the episodes become more complex and the puzzles more abstract. I enjoyed it thoroughly, though. A word of warning: it may look child-friendly, but at times it is not, and the writing doesn't feel like it was ever intended to be.			"
+http://steamcommunity.com/id/bawdiepie/,1,2.4 ,"
+				No ratings yet			","17, 2016
+												Good game, funny. You have to like point and click style games though. Plenty of guides available if you get stuck but not needed so far as puzzles seem fairly logical(!).  Works fine for me on Windows 10, so perhaps it's been patched since other review people had issues.			"
+http://steamcommunity.com/id/RobTon/,1,2.4 ,"
+				No ratings yet			","ry 17, 2016
+												This was a nice change to play from what Telltale puts out these days. Their old games focus more on a linear story, point and click adventure. Rather than having choices that changes the outcome of the game. The challenge here is to gather things and use logic(most of the time…) to find out what items and dialogue triggers what. and you have to do a lot or going back and forth between locations in the game.I had to resort to guides online multiple times, at first I thought I was getting stupid, but then I realized I’ve gotten spoiled by newer games. In the end it kinda took me back, and I rather enjoyed playing through it.I had NO knowledge or prior experience with Sam & Max apart from the Poker games from Telltale, so the terrible jokes(which I like…), references and the way they solve crime blew me away. Not recommended if you are after a “immersive and realistic” type of game.As for the technical aspect, this is an old game. The engine is outdated and only supports 3 resolutions(at least it did for me, 1024x768 was the highest it would go), this game also ran at 40-50fps max. But it was nothing I really didn’t expect from a game this old, it still played nicely. But if you are running Windows 10 however, it seems like you aren’t gonna be able to play. The support section is filled with those complaints.So all in all, a fun game series which takes me back, is packed with terrible jokes and references. And doesn’t cost much compared to what you get out of it.(If you aren’t on Win10 that is, then don’t bother…) So I recommend it a lot.			"
+http://steamcommunity.com/id/zaturaite/,1,1.1 ,"
+				No ratings yet			",", 2016
+												I just bought this game for the sake of writing a review on it.This game is the definition of what a ""Point & Click Adventure Game"" was back then: Nonsensical and funny. Of course, some of the jokes are old and you have to be kind of immature to understand it, but that just fits me well. I owned this game for the Wii and played hours of it, reviewing it over to see if there was an item I could inspect just to see what comment was made on it. This game has no limits. It took me to the point where I had to shoot a statue of Abraham Lincoln to stop it from destroying whatever it was planning to destroy. Then a few episodes later you speak to the head of said statue to retrieve an emblem that'll help you make anyone you want throw up. You do this on an ""amusement park"" on the moon none the less. You can't make that up.This game was my childhood, pretty underrated game, but I loved it. Sadly, no more games may be made for it since it wouldn't fit Telltale new ""choose your own story format."" I mean, not like a story about Minecraft isn't radical or anything, but certainly not as good as this game.I give this game a honest nostalgia rating of 9/10.			"
+http://steamcommunity.com/profiles/76561198032258502/,1,0.2 ,"
+				No ratings yet			","er 29, 2016
+												An oldy but a goodieThi game and his series can just be described as a fun mad romp involving a well dressed Doggo and a mad as heck rabbit.Those who enjoy Adventure games should enjoy this series though due to their age don't expect them to ouperform other newer games in areas other than comedy.			"
+http://steamcommunity.com/id/gazzzza/,1,3.0 ,"
+				No ratings yet			","er 1, 2016
+												The first season consists of 6 sometimes hilariously funny Episodes, and the humour should also be the reason to buy this point and click adventure.Sure, theres a few negavtive things about the game, like the outdated graphics, that you cant run fast or move quickly to other locations but thats all acceptable here. Sometimes you need to think a bit crazy but that just fits to the game. (But yeah a walkthrough is probably needed here and there.)Maybe wait for a sale though, you can get all 3 seasons (16 Episodes between 2-4 hours each) for like 10€, which is a great deal.			"
