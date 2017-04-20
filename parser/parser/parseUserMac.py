@@ -13,7 +13,7 @@ def parseUser(userList,fileName):
     for each in userList:
         lang_es = webdriver.ChromeOptions()
         lang_es.add_argument("--lang=en")
-        driver = webdriver.Chrome("chromedriver.exe",chrome_options=lang_es)
+        driver = webdriver.Chrome()
 
         userUrl = each #http://steamcommunity.com/id/freddanorsk/
         '''
@@ -24,7 +24,9 @@ def parseUser(userList,fileName):
         '''
         userGames = userUrl + 'games/?tab=all'
         driver.get(userGames)
-        time.sleep(1)
+        #time.sleep(1)
+
+
         soup = BeautifulSoup(driver.page_source,'html.parser')
         #driver.close()
         gameList = soup.findAll("div", {"class" : "popup_block2"})
@@ -35,13 +37,8 @@ def parseUser(userList,fileName):
         for id in gameList:
             appid = id.attrs['id'].replace('links_dropdown_','')
             gameUrl = 'http://store.steampowered.com/app/' + appid
-            #print(gameUrl)
-            try:
-                driver.get(gameUrl)
-            except:
-                print("error")
-                continue
 
+            '''
             #time.sleep(1)
             soup = BeautifulSoup(driver.page_source,'html.parser')
             #driver.close()
@@ -52,14 +49,26 @@ def parseUser(userList,fileName):
                 for char in tag:
                     if char in '\n' or char in '\t':
                         tag = tag.replace(char,'')
+            '''
+            genereTag = ['Action','Adventure','Racing','RPG','Simulation','Sports','Strategy']
 
-                try:
-                    generes[tag] = generes[tag] + 1
-                except:
-                    print(tag)
+            for tag in genereTag:
+                fileName = "../appId/appId_"+ tag  + ".csv"
+                with open(fileName, 'rt') as f:
+                    reader = csv.reader(f, delimiter=',')
+                    for row in reader:
+                        if appid == row[0]: # if the username shall be on column 3 (-> index 2)
+                            try:
+                                generes[tag] = generes[tag] + 1
+                                continue
+                            except:
+                                pass
 
-            genereList.append(generes)
 
+
+                genereList.append(generes)
+
+        print(genereList)
         with open(fileName, 'r') as fin, open('new_'+fileName, 'w') as fout:
             writer = csv.writer(fout)
             writer.writerow(["user name","positive or negative","total playing time","number of helpful","content",
