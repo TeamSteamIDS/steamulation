@@ -11,6 +11,7 @@ import pandas as pd
 
 def parseUser(userList,fileName):
     for each in userList:
+        print(each)
         lang_es = webdriver.ChromeOptions()
         lang_es.add_argument("--lang=en")
         driver = webdriver.Chrome()
@@ -67,22 +68,25 @@ def parseUser(userList,fileName):
 
 
                 genereList.append(generes)
+        print(generes)
+        driver.close()
 
-        print(genereList)
-        with open(fileName, 'r') as fin, open('new_'+fileName, 'w') as fout:
-            writer = csv.writer(fout)
-            writer.writerow(["user name","positive or negative","total playing time","number of helpful","content",
-            "Action","Adventure","Racing","RPG","Simulation","Sports","Strategy"])
-            reader = csv.reader(fin, newline='', lineterminator='\n')
-            lis=[line.split() for line in fin]        # create a list of lists
-            for i,x in enumerate(lis):              #print the list items
-                genere = genereLis[i]
-                writer.writerow([
-                genere['Action'],genere['Adventure'],genere['Racing'],
-                genere['RPG'],genere['Simulation'],genere['Sports'],genere['Strategy']])
+    outFile = "racing/"+'test'+".csv"
 
-        fin.close()
-        fout.close()
+    with open(fileName, 'r') as fin, open(outFile, 'w') as fout:
+        writer = csv.writer(fout)
+        writer.writerow(["user name","positive or negative","total playing time","number of helpful","content",
+        "Action","Adventure","Racing","RPG","Simulation","Sports","Strategy"])
+        reader = csv.reader(fin, newline='', lineterminator='\n')
+        lis=[line.split() for line in fin]        # create a list of lists
+        for i,x in enumerate(lis):              #print the list items
+            genere = genereLis[i]
+            writer.writerow([
+            genere['Action'],genere['Adventure'],genere['Racing'],
+            genere['RPG'],genere['Simulation'],genere['Sports'],genere['Strategy']])
+
+    fin.close()
+    fout.close()
 
 fileName = "strategy/"+str(2720)+".csv"
 userList = []
