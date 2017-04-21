@@ -63,8 +63,11 @@ def parseUser(userList,fileName):
             gameUrl = 'http://store.steampowered.com/app/' + appid
             genereTag = ['Action','Adventure','Racing','RPG','Simulation','Sports','Strategy']
 
+            found = 0
             #parse generes user has
             for tag in genereTag:
+                if found == 1:
+                    break
                 fileNameApp = "../../../appId/appId_"+ tag  + ".csv"
                 with open(fileNameApp, 'rt') as f:
                     reader = csv.reader(f, delimiter=',')
@@ -72,10 +75,12 @@ def parseUser(userList,fileName):
                         if appid == row[0]: # if the username shall be on column 3 (-> index 2)
                             try:
                                 generes[tag] = generes[tag] + 1
-                                continue
+                                found = 1
+                                break
                             except:
                                 pass
         genereList.append(generes)
+        print(generes)
         driver.close()
 
     outFile = "racing/"+'test'+".csv"
