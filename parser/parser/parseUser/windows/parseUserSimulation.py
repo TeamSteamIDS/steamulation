@@ -98,6 +98,10 @@ for id in open("../../../appId/appId_Simulation.csv"):
         print(id+" start!")
         userList = []
         df = pd.read_csv(fileName)
+        for field in df.columns:
+            if(field == 'Action'):
+                print('Already parse User')
+                continue
         for each in df[df.columns[0]]:
             userList.append(each)
 

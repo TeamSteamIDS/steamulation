@@ -95,9 +95,14 @@ for id in open("../../appId/appId_Action.csv"):
             id = id.replace(char,'')
     fileName = "../action/"+id+".csv"
     if os.path.isfile(fileName):
+
         print(id+" start!")
         userList = []
         df = pd.read_csv(fileName)
+        for field in df.columns:
+            if(field == 'Action'):
+                print('Already parse User')
+                continue
         for each in df[df.columns[0]]:
             userList.append(each)
 
