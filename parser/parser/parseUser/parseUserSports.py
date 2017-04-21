@@ -1,15 +1,17 @@
 import csv
 import time
 import os
+import re
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import pandas as pd
+import steamapi
 
+def parseUser(fileName, csvtag, csvid):
 
-def parseUser(userList,fileName):
     df = pd.read_csv(fileName)
     username = list()
     recommend = list()
@@ -17,68 +19,74 @@ def parseUser(userList,fileName):
     helpful = list()
     content = list()
     for each in df[df.columns[0]]:
-        username.append(each)
+        if each != '':
+            username.append(each)
     for each in df[df.columns[1]]:
-        recommend.append(each)
+        if each != '':
+            recommend.append(each)
     for each in df[df.columns[2]]:
-        time.append(each)
+        if each != '':
+            time.append(each)
     for each in df[df.columns[3]]:
-        helpful.append(each)
+        if each != '':
+            helpful.append(each)
     for each in df[df.columns[4]]:
-        content.append(each)
+        if each != '':
+            content.append(each)
 
-    #print('userNum={0}'.format(len(userList)))
-    genereList = list()
-    userLevel = list()
-    for each in userList:
-        print(each)
-        lang_es = webdriver.ChromeOptions()
-        lang_es.add_argument("--lang=en")
-        driver = webdriver.Chrome()
+    print('UserNum: {0}'.format(len(username)))
+    genereList = []
+    userLevel = []
+    for each in username:
+        #print(each)
+        if each == '':
+            continue
 
-        userUrl = each #http://steamcommunity.com/id/freddanorsk/
-        userGames = userUrl + 'games/?tab=all'
+        user = each
+        #Regular Expression
+        idReg = re.compile('http://steamcommunity.com/id/(.*)/')
+        profileReg = re.compile('http://steamcommunity.com/profiles/(.*)/')
 
-        #time.sleep(1)
-        driver.get(userUrl)
+        idMatch = re.match(idReg, user)
+        profileMatch = re.match(profileReg, user)
+        if idMatch:
+            name = idMatch.group(1)
+            me = steamapi.user.SteamUser(userurl=name)
+        if profileMatch:
+            name = profileMatch.group(1)
+            me = steamapi.user.SteamUser(name)
 
-
-        #level.append()
-        try:
-            level = driver.find_element_by_xpath("//span[@class='friendPlayerLevelNum']")
-            userLevel.append(level.text)
-        except:
-            userLevel.append(0)
-
-        driver.get(userGames)
-
-        soup = BeautifulSoup(driver.page_source,'html.parser')
-        #driver.close()
-        gameList = soup.findAll("div", {"class" : "popup_block2"})
-
-        #count game generes in user
         generes = {'Action':0 ,'Adventure':0 ,'Racing':0 ,'RPG':0 ,'Simulation':0 ,'Sports':0 ,'Strategy':0}
-        for id in gameList:
-            appid = id.attrs['id'].replace('links_dropdown_','')
-            gameUrl = 'http://store.steampowered.com/app/' + appid
+        appidList = []
+        try:
+            userLevel.append(me.level)
+            for each in me.games:
+                appidList.append(each.appid)
+        except:
+            #print(me.steamid)
+            genereList.append(generes)
+            print('exception')
+            continue
+
+        for id in appidList:
             genereTag = ['Action','Adventure','Racing','RPG','Simulation','Sports','Strategy']
-
-            #parse generes user has
+            found = 0
             for tag in genereTag:
-                fileNameApp = "../../appId/appId_"+ tag  + ".csv"
-                with open(fileNameApp, 'rt') as f:
-                    reader = csv.reader(f, delimiter=',')
-                    for row in reader:
-                        if appid == row[0]: # if the username shall be on column 3 (-> index 2)
-                            try:
+                if found == 0:
+                    fileNameApp = "../../appId/appId_"+ tag  + ".csv"
+                    with open(fileNameApp, 'rt') as f:
+                        reader = csv.reader(f, delimiter=',')
+                        for row in reader:
+                            if str(id) == row[0]:
                                 generes[tag] = generes[tag] + 1
-                                continue
-                            except:
-                                pass
-        genereList.append(generes)
-        driver.close()
+                                found = 1
+                                break
 
-    outFile = "racing/"+'test'+".csv"
+        genereList.append(generes)
+        #print(generes)
+
+    print(len(genereList))
+    outFile = "../"+csvtag+"/new_"+csvid+".csv"
     with open(outFile, 'w') as fout:
         writer = csv.writer(fout)
         writer.writerow(["user name","user level","positive or negative","total playing time","number of helpful","content","Action","Adventure","Racing","RPG","Simulation","Sports","Strategy"])
@@ -86,21 +94,29 @@ def parseUser(userList,fileName):
         for i in range(len(genereList)):
             genere = genereList[i]
             writer.writerow([username[i],userLevel[i],recommend[i],time[i],helpful[i],content[i],genere['Action'],genere['Adventure'],genere['Racing'],genere['RPG'],genere['Simulation'],genere['Sports'],genere['Strategy']])
-
+    print('{0} succeed'.format(outFile))
     fout.close()
+
+steamapi.core.APIConnection(api_key="56C90FBD8CC1C30B69E55D0194282197")
 
 for id in open("../../appId/appId_Sports.csv"):
     for char in id:
         if char in "\n":
             id = id.replace(char,'')
     fileName = "../sports/"+id+".csv"
+    newFileName = "../sports/"+"new_"+id+".csv"
     if os.path.isfile(fileName):
+        if os.path.isfile(newFileName):
+            print(newFileName+' exist')
+            continue
+
         print(id+" start!")
         userList = []
         df = pd.read_csv(fileName)
+
         for each in df[df.columns[0]]:
             userList.append(each)
 
-        parseUser(userList, fileName)
+        parseUser(fileName, 'sports', id)
     else:
         print(id+" not exist")

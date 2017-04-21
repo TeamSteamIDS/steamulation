@@ -10,8 +10,8 @@ from selenium.common.exceptions import NoSuchElementException
 import pandas as pd
 import steamapi
 
-def parseUser(fileName, csvtag, csvid):
-
+def parseUser(userList, fileName, tag, csvid):
+    print('UserNum: {0}'.format(len(userList)))
     df = pd.read_csv(fileName)
     username = list()
     recommend = list()
@@ -33,12 +33,7 @@ def parseUser(fileName, csvtag, csvid):
     for each in df[df.columns[4]]:
         if each != '':
             content.append(each)
-
-    print('UserNum: {0}'.format(len(username)))
-    genereList = []
-    userLevel = []
-    for each in username:
-        #print(each)
+    for each in userList:
         if each == '':
             continue
 
@@ -56,12 +51,18 @@ def parseUser(fileName, csvtag, csvid):
             name = profileMatch.group(1)
             me = steamapi.user.SteamUser(name)
 
+        genereList = []
+        userLevel = []
         generes = {'Action':0 ,'Adventure':0 ,'Racing':0 ,'RPG':0 ,'Simulation':0 ,'Sports':0 ,'Strategy':0}
-        appidList = []
         try:
+            #get appid in user
+            # For http://steamcommunity.com/id/smileybarry
+            appidList = []
+            #print(me.steamid)
             userLevel.append(me.level)
             for each in me.games:
                 appidList.append(each.appid)
+
         except:
             #print(me.steamid)
             genereList.append(generes)
@@ -85,17 +86,17 @@ def parseUser(fileName, csvtag, csvid):
         genereList.append(generes)
         #print(generes)
 
-    print(len(genereList))
-    outFile = "../"+csvtag+"/new_"+csvid+".csv"
-    with open(outFile, 'w') as fout:
-        writer = csv.writer(fout)
-        writer.writerow(["user name","user level","positive or negative","total playing time","number of helpful","content","Action","Adventure","Racing","RPG","Simulation","Sports","Strategy"])
-        count = 0
-        for i in range(len(genereList)):
-            genere = genereList[i]
-            writer.writerow([username[i],userLevel[i],recommend[i],time[i],helpful[i],content[i],genere['Action'],genere['Adventure'],genere['Racing'],genere['RPG'],genere['Simulation'],genere['Sports'],genere['Strategy']])
-    print('{0} succeed'.format(outFile))
-    fout.close()
+
+        outFile = "../"+tag+"/new_"+csvid+".csv"
+        with open(outFile, 'w') as fout:
+            writer = csv.writer(fout)
+            writer.writerow(["user name","user level","positive or negative","total playing time","number of helpful","content","Action","Adventure","Racing","RPG","Simulation","Sports","Strategy"])
+            count = 0
+            for i in range(len(genereList)):
+                genere = genereList[i]
+                writer.writerow([username[i],userLevel[i],recommend[i],time[i],helpful[i],content[i],genere['Action'],genere['Adventure'],genere['Racing'],genere['RPG'],genere['Simulation'],genere['Sports'],genere['Strategy']])
+
+        fout.close()
 
 steamapi.core.APIConnection(api_key="56C90FBD8CC1C30B69E55D0194282197")
 
@@ -117,6 +118,6 @@ for id in open("../../appId/appId_Racing.csv"):
         for each in df[df.columns[0]]:
             userList.append(each)
 
-        parseUser(fileName, 'racing', id)
+        parseUser(userList, fileName, 'racing', id)
     else:
         print(id+" not exist")
