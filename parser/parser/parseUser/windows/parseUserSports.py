@@ -65,7 +65,7 @@ def parseUser(userList,fileName):
 
             #parse generes user has
             for tag in genereTag:
-                fileNameApp = "../../appId/appId_"+ tag  + ".csv"
+                fileNameApp = "../../../appId/appId_"+ tag  + ".csv"
                 with open(fileNameApp, 'rt') as f:
                     reader = csv.reader(f, delimiter=',')
                     for row in reader:
@@ -89,11 +89,11 @@ def parseUser(userList,fileName):
 
     fout.close()
 
-for id in open("../../appId/appId_Sports.csv"):
+for id in open("../../../appId/appId_Sports.csv"):
     for char in id:
         if char in "\n":
             id = id.replace(char,'')
-    fileName = "../sports/"+id+".csv"
+    fileName = "../../sports/"+id+".csv"
     if os.path.isfile(fileName):
         print(id+" start!")
         userList = []
