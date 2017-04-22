@@ -38,11 +38,13 @@ def parseUser(fileName, csvtag, csvid):
     genereList = []
     userLevel = []
     for each in username:
-        #print(each)
+        print(each)
         if each == '':
             continue
 
         user = each
+        generes = {'Action':0 ,'Adventure':0 ,'Racing':0 ,'RPG':0 ,'Simulation':0 ,'Sports':0 ,'Strategy':0}
+        appidList = []
         #Regular Expression
         idReg = re.compile('http://steamcommunity.com/id/(.*)/')
         profileReg = re.compile('http://steamcommunity.com/profiles/(.*)/')
@@ -51,21 +53,29 @@ def parseUser(fileName, csvtag, csvid):
         profileMatch = re.match(profileReg, user)
         if idMatch:
             name = idMatch.group(1)
-            me = steamapi.user.SteamUser(userurl=name)
-        if profileMatch:
+            try:
+                me = steamapi.user.SteamUser(userurl=name)
+                userLevel.append(me.level)
+                for each in me.games:
+                    appidList.append(each.appid)
+            except:
+                genereList.append(generes)
+                print('exception')
+                continue
+        elif profileMatch:
             name = profileMatch.group(1)
-            me = steamapi.user.SteamUser(name)
-
-        generes = {'Action':0 ,'Adventure':0 ,'Racing':0 ,'RPG':0 ,'Simulation':0 ,'Sports':0 ,'Strategy':0}
-        appidList = []
-        try:
-            userLevel.append(me.level)
-            for each in me.games:
-                appidList.append(each.appid)
-        except:
-            #print(me.steamid)
+            try:
+                me = steamapi.user.SteamUser(name)
+                userLevel.append(me.level)
+                for each in me.games:
+                    appidList.append(each.appid)
+            except:
+                genereList.append(generes)
+                print('exception')
+                continue
+        else:
+            print('not found user')
             genereList.append(generes)
-            print('exception')
             continue
 
         for id in appidList:
@@ -90,10 +100,12 @@ def parseUser(fileName, csvtag, csvid):
     with open(outFile, 'w') as fout:
         writer = csv.writer(fout)
         writer.writerow(["user name","user level","positive or negative","total playing time","number of helpful","content","Action","Adventure","Racing","RPG","Simulation","Sports","Strategy"])
-        count = 0
-        for i in range(len(genereList)):
-            genere = genereList[i]
-            writer.writerow([username[i],userLevel[i],recommend[i],time[i],helpful[i],content[i],genere['Action'],genere['Adventure'],genere['Racing'],genere['RPG'],genere['Simulation'],genere['Sports'],genere['Strategy']])
+        for i in range(len(username)):
+            try:
+                genere = genereList[i]
+                writer.writerow([username[i],userLevel[i],recommend[i],time[i],helpful[i],content[i],genere['Action'],genere['Adventure'],genere['Racing'],genere['RPG'],genere['Simulation'],genere['Sports'],genere['Strategy']])
+            except:
+                print('out of index')
     print('{0} succeed'.format(outFile))
     fout.close()
 
