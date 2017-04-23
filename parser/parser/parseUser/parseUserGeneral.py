@@ -113,30 +113,32 @@ def parseUser(fileName, csvtag, csvid):
 steamapi.core.APIConnection(api_key="56C90FBD8CC1C30B69E55D0194282197")
 
 tag = sys.argv[1]
-start = sys.argv[2]
+#start = sys.argv[2]
 count = 0
 appIdFile = "../../appId/"+"appId_"+tag+".csv"
 for id in open(appIdFile):
-    if count > int(start):
-        for char in id:
-            if char in "\n":
-                id = id.replace(char,'')
-        fileName = "../"+tag+"/"+id+".csv"
-        newFileName = "../"+tag+"/"+"new_"+id+".csv"
-        if os.path.isfile(fileName):
-            if os.path.isfile(newFileName):
-                print(newFileName+' exist')
-                continue
+    for char in id:
+        if char in "\n":
+            id = id.replace(char,'')
+    fileName = "../"+tag+"/"+id+".csv"
+    newFileName = "../"+tag+"/"+"new_"+id+".csv"
 
-            print(id+" start!")
-            userList = []
-            df = pd.read_csv(fileName)
-
-            for each in df[df.columns[0]]:
-                userList.append(each)
-
-            parseUser(fileName, tag, id)
+    if os.path.isfile(fileName):
+        if os.path.isfile(newFileName):
+            print(newFileName+' exist')
+            continue
         else:
-            print(id+" not exist")
+            with open(newFileName, 'w') as fout:
+                print('{0} start'.format(newFileName))
+            fout.close()
+
+        print(id+" start!")
+        userList = []
+        df = pd.read_csv(fileName)
+
+        for each in df[df.columns[0]]:
+            userList.append(each)
+
+        parseUser(fileName, tag, id)
     else:
-        count += 1
+        print(id+" not exist")
