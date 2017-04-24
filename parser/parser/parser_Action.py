@@ -128,7 +128,7 @@ def parse(id):
         dateData.append(each.get_text())
 
     for each in content:
-        contentData.append(each.get_text()[15:])
+        contentData.append(each.get_text())
 
     for each in positive:
         if(each.get_text()=="Recommended"):
@@ -137,7 +137,7 @@ def parse(id):
             positiveData.append(0)
 
     for each in hour:
-        hourData.append(each.get_text()[0:4])
+        hourData.append(each.get_text())
 
     for each in helpful:
         helpfulData.append(each.get_text())

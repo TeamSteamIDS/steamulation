@@ -44,7 +44,7 @@ def parseUser(fileName, csvtag, csvid):
             continue
 
         user = each
-        generes = {'Action':0 ,'Adventure':0 ,'Racing':0 ,'RPG':0 ,'Simulation':0 ,'Sports':0 ,'Strategy':0}
+        generes = {'action':0 ,'adventure':0 ,'racing':0 ,'rpg':0 ,'simulation':0 ,'sports':0 ,'strategy':0}
         appidList = []
         #Regular Expression
         idReg = re.compile('http://steamcommunity.com/id/(.*)/')
@@ -80,11 +80,11 @@ def parseUser(fileName, csvtag, csvid):
             continue
 
         for id in appidList:
-            genereTag = ['Action','Adventure','Racing','RPG','Simulation','Sports','Strategy']
+            genereTag = ['action','adventure','racing','rpg','simulation','sports','strategy']
             found = 0
             for tag in genereTag:
                 if found == 0:
-                    fileNameApp = "../../appId/appId_"+ csvtag  + ".csv"
+                    fileNameApp = "../../appId/appId_"+ tag  + ".csv"
                     with open(fileNameApp, 'rt') as f:
                         reader = csv.reader(f, delimiter=',')
                         for row in reader:
@@ -94,8 +94,7 @@ def parseUser(fileName, csvtag, csvid):
                                 break
 
         genereList.append(generes)
-        #print(generes)
-
+        print(generes)
     print(len(genereList))
     outFile = "../"+csvtag+"/new_"+csvid+".csv"
     with open(outFile, 'w') as fout:
@@ -104,7 +103,7 @@ def parseUser(fileName, csvtag, csvid):
         for i in range(len(username)):
             try:
                 genere = genereList[i]
-                writer.writerow([username[i],userLevel[i],recommend[i],time[i],helpful[i],content[i],genere['Action'],genere['Adventure'],genere['Racing'],genere['RPG'],genere['Simulation'],genere['Sports'],genere['Strategy']])
+                writer.writerow([username[i],userLevel[i],recommend[i],time[i],helpful[i],content[i],genere['action'],genere['adventure'],genere['racing'],genere['rpg'],genere['simulation'],genere['sports'],genere['strategy']])
             except:
                 print('out of index')
     print('{0} succeed'.format(outFile))
