@@ -2,6 +2,7 @@ import csv
 import time
 import re
 import os
+import sys
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,8 +13,8 @@ from selenium.common.exceptions import NoSuchElementException
 def parse(id, newFileName):
     lang_es = webdriver.ChromeOptions()
     lang_es.add_argument("--lang=en")
-    driver = webdriver.Chrome("chromedriver.exe",chrome_options=lang_es)
-
+    #driver = webdriver.Chrome("chromedriver.exe",chrome_options=lang_es)
+    driver = webdriver.PhantomJS("/home/hyc404/steamulation/parser/parser/phantomjs-2.1.1-linux-x86_64/bin/phantomjs")
     #scrolling
     reviewUrl = "http://steamcommunity.com/app/" + id + "/reviews/?browsefilter=toprated&snr=1_5_reviews_"
     driver.get(reviewUrl)
@@ -122,7 +123,6 @@ def parse(id, newFileName):
     print("end: "+id)
 
 tag = sys.argv[1]
-#start = sys.argv[2]
 count = 0
 appIdFile = "../appId/"+"appId_"+tag+".csv"
 
@@ -130,21 +130,16 @@ for id in open(appIdFile):
     for char in id:
         if char in "\n":
             id = id.replace(char,'')
-    fileName = tag + "/"+id+".csv"
-    newFileName =tag+"/"+"new_"+id+".csv"
-    '''
-    if os.path.isfile(fileName):
-        print(id+" exist!")
-    else:
-        print(id+" start")
-        parse(id)
-    '''
+    newFileName =tag+"/"+"parseNew_"+id+".csv"
 
+    #find not yet parse id
     if os.path.isfile(newFileName):
         print(newFileName+' exist')
+        count = count+1
         continue
     else:
         with open(newFileName, 'w') as fout:
             print('{0} start'.format(newFileName))
+            print(count)
         fout.close()
         parse(id, newFileName)
