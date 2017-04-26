@@ -74,5 +74,5 @@ for fileName in fileList:
         continue
 print(len(userKey))
 
-with open('../'+tag+'/finish/userDictionary', "wb") as f:
+with open('../'+tag+'/finish/userDictionary_'+tag+'.p', "wb") as f:
         pickle.dump(userKey, f)
