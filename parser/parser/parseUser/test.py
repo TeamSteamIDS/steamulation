@@ -6,10 +6,16 @@ import os
 import re
 import sys
 
-tag = sys.argv[1]
-fileName = '../'+tag+'/finish/userDictionary'
+
+
+
+#def get_total_review(g_id,u_id):
+
+fileName = '../../../dicts/userDictionary_racing.p'
 
 with open(fileName, "rb") as f:
-    userKey = pickle.load(f)
+    review = pickle.load(f)
 
-print(userKey)
+    print(review)
+
+#total_review = get_total_review()

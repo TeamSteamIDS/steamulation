@@ -68,7 +68,9 @@ for fileName in fileList:
                 userValue['simulation'] = simulation[i]
                 userValue['sports'] = sports[i]
                 userValue['strategy'] = strategy[i]
-                userKey[userName[i]] = userValue
+                #userKey[userName[i]] = userValue
+                user_list = userName[i].split("/")
+                userKey[user_list[len(user_list) - 2]] = userValue
     except:
         print('{0} error'.format(fileName))
         continue
