@@ -33,19 +33,78 @@ def review(genre):
 	path = ""
 	path_new = ""
 	cnt = 0
+	review = {}
+	total_play = {}
 	for g in genre:
-		path = 'parser/parser/' + g + '/'
+		path = 'parser/parser/' + g + '/finish/'
 		for g_id in classification[g]:
 			path_new = path + str(g_id) + '.csv'
-			#print(path_new)
-			with open(path_new, "r") as f:
-				for line in f:
-					print(line)
+			print(path_new)
+			f = open(path_new, 'rt')
+			cnt = 0
+			try:
+				reader = csv.reader(f)
+				for l in reader:
 					cnt = cnt + 1
-					if cnt > 10:
-						return
+					if cnt == 1:
+						continue
+					rev_id = str(g_id) + str(cnt)
+					v = {}
+					v['content'] = l[4]
+					v['game_id'] = g_id
+					# retrieve user_id
+					user_list = l[0].split("/")
+					#
+					v['user_id'] = user_list[len(user_list) - 2]
+					v['recommand'] = l[2]
+					# retrieve helpful
+					help_list = l[4].split(" people ")
+					print(l[4],help_list)
+					num_help_list = help_list[0].split(" of ")
+					num_feel_helpful = num_help_list[0].split("\t")[-1]
+					if len(num_help_list) == 1:
+						v['helpful'] = 1.0
+					else:
+						v['helpful'] = int(num_feel_helpful.replace(',',''))/int(num_help_list[1].replace(',',''))
+					#
+					tup = (g_id, v['user_id'])
 
+					total_play[tup] = float(l[3].split(" hrs")[0].replace(',',''))
+					review[rev_id] = v
+			finally:
+				f.close()
+
+			
+
+
+
+
+
+
+
+			'''
+			with open(path_new, "r") as f:
+				cnt = 0
+				line = ""
+				for shortline in f:
+					#print(shortline, cnt)
+					cnt = cnt + 1
+					if cnt == 1: 
+						continue
+					line = line + shortline
+					if cnt % 8 != 7:
+						continue
+					print(line, cnt)
+					
+					l = line.split(",")
+					line = ""
+					
+					cnt = cnt + 1
+					if cnt > 30:
+						print(review)
+						return
+					'''
 
 classification()				
-l = ["racing", "sports"]
+l = ["racing"]
 review(l)
