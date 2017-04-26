@@ -34,7 +34,8 @@ def review(genre):
 	path_new = ""
 	cnt = 0
 	review = {}
-	total_play = {}
+	result = {}
+	game_user = {}#{'action':{}, 'adventure':{}, 'racing':{}, 'rpg':{}, 'simulation':{}, 'sports':{}, 'strategy':{}}
 	for g in genre:
 		path = 'parser/parser/' + g + '/finish/'
 		for g_id in classification[g]:
@@ -57,6 +58,10 @@ def review(genre):
 					#
 					v['user_id'] = user_list[len(user_list) - 2]
 					v['recommend'] = l[2]
+					if g_id in result:
+						result[g_id][v['user_id']] = v['recommend']
+					else:
+						result[g_id] = {v['user_id']: v['recommend']}
 					# retrieve helpful
 					help_list = l[4].split(" people ")
 					print(l[4],help_list)
@@ -70,16 +75,21 @@ def review(genre):
 					else:
 						v['helpful'] = int(num_feel_helpful.replace(',',''))/int(num_help_list[1].replace(',',''))
 					#
-					tup = (g_id, v['user_id'])
-					total_play[tup] = float(l[3].split(" hrs")[0].replace(',',''))
+					if g_id not in game_user:
+						game_user[g_id] = {}
+					if v['user_id'] not in game_user[g_id]:
+						game_user[g_id][v['user_id']] = \
+						{'total_play_time':float(l[3].split(" hrs")[0].replace(',',''))}
 					review[rev_id] = v
 			finally:
 				f.close()
 
-	for i in review:
-		print(review[i])
-		break
+	print(result)
 
+	with open("dicts/game_user.p", "wb") as f:
+		pickle.dump(game_user, f)
+	with open("dicts/result.p", "wb") as f:
+		pickle.dump(result, f)
 	with open("dicts/review.p", "wb") as f:
 		pickle.dump(review, f)
 	
