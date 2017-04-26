@@ -50,13 +50,13 @@ def review(genre):
 						continue
 					rev_id = str(g_id) + str(cnt)
 					v = {}
-					v['content'] = l[4]
+					v['content'] = l[-8]
 					v['game_id'] = g_id
 					# retrieve user_id
 					user_list = l[0].split("/")
 					#
 					v['user_id'] = user_list[len(user_list) - 2]
-					v['recommand'] = l[2]
+					v['recommend'] = l[2]
 					# retrieve helpful
 					help_list = l[4].split(" people ")
 					print(l[4],help_list)
@@ -75,6 +75,10 @@ def review(genre):
 					review[rev_id] = v
 			finally:
 				f.close()
+
+	for i in review:
+		print(review[i])
+		break
 
 	with open("dicts/review.p", "wb") as f:
 		pickle.dump(review, f)
