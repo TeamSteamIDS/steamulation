@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 import pandas as pd
 import steamapi
 
-def parseUser(fileName, csvtag, csvid):
+def parseUser(fileName, newFileName, csvtag, csvid):
 
     df = pd.read_csv(fileName)
     username = list()
@@ -96,7 +96,7 @@ def parseUser(fileName, csvtag, csvid):
         genereList.append(generes)
         print(generes)
     print(len(genereList))
-    outFile = "../"+csvtag+"/new_"+csvid+".csv"
+    outFile = newFileName
     with open(outFile, 'w') as fout:
         writer = csv.writer(fout)
         writer.writerow(["user name","user level","positive or negative","total playing time","number of helpful","content","Action","Adventure","Racing","RPG","Simulation","Sports","Strategy"])
@@ -119,12 +119,13 @@ for id in open(appIdFile):
     for char in id:
         if char in "\n":
             id = id.replace(char,'')
-    fileName = "../"+tag+"/"+id+".csv"
-    newFileName = "../"+tag+"/"+"new_"+id+".csv"
+    fileName = "../"+tag+"/parseNew_"+id+".csv"
+    newFileName = "../"+tag+"/finish/"+id+".csv"
 
     if os.path.isfile(fileName):
         if os.path.isfile(newFileName):
             print(newFileName+' exist')
+            count = count+1
             continue
         else:
             with open(newFileName, 'w') as fout:
@@ -137,7 +138,7 @@ for id in open(appIdFile):
 
         for each in df[df.columns[0]]:
             userList.append(each)
-
-        parseUser(fileName, tag, id)
+        print(count)
+        parseUser(fileName,newFileName, tag, id)
     else:
         print(id+" not exist")
