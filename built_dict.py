@@ -63,48 +63,22 @@ def review(genre):
 					num_help_list = help_list[0].split(" of ")
 					num_feel_helpful = num_help_list[0].split("\t")[-1]
 					if len(num_help_list) == 1:
-						v['helpful'] = 1.0
+						if "No" in num_help_list[0]:
+							v['helpful'] = 1.0
+						else:
+							v['helpful'] = 0.0
 					else:
 						v['helpful'] = int(num_feel_helpful.replace(',',''))/int(num_help_list[1].replace(',',''))
 					#
 					tup = (g_id, v['user_id'])
-
 					total_play[tup] = float(l[3].split(" hrs")[0].replace(',',''))
 					review[rev_id] = v
 			finally:
 				f.close()
 
-			
-
-
-
-
-
-
-
-			'''
-			with open(path_new, "r") as f:
-				cnt = 0
-				line = ""
-				for shortline in f:
-					#print(shortline, cnt)
-					cnt = cnt + 1
-					if cnt == 1: 
-						continue
-					line = line + shortline
-					if cnt % 8 != 7:
-						continue
-					print(line, cnt)
-					
-					l = line.split(",")
-					line = ""
-					
-					cnt = cnt + 1
-					if cnt > 30:
-						print(review)
-						return
-					'''
-
+	with open("dicts/review.p", "wb") as f:
+		pickle.dump(review, f)
+	
 classification()				
 l = ["racing"]
 review(l)
