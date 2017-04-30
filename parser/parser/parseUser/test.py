@@ -8,6 +8,7 @@ import sys
 
 userFileName = '../../../dicts/userDictionary_racing.p'
 reviewFileName = '../../../dicts/review.p'
+gameFileName = '../../../dicts/game_user.p'
 
 with open(userFileName, "rb") as f:
     user = pickle.load(f)
@@ -15,6 +16,10 @@ with open(userFileName, "rb") as f:
 with open(reviewFileName, "rb") as f:
     review = pickle.load(f)
     f.close()
+with open(gameFileName, "rb") as f:
+    game = pickle.load(f)
+    f.close()
+
 
 def get_total_review_g(g_id):
     count = 0
@@ -33,6 +38,7 @@ def get_total_review_u(u_id):
     #print('{0} : {1} '.format(u_id,count))
     return count
 
+'''
 #total_review for each game_id
 total_review_g = {}
 for each in review:
@@ -51,3 +57,6 @@ for each in review:
 
 with open('../../../dicts/total_review_u.p', "wb") as f:
         pickle.dump(total_review_u, f)
+'''
+for each in game:
+    print(each)
