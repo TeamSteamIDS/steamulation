@@ -123,6 +123,7 @@ def parse(id, newFileName):
     print("end: "+id)
 
 tag = sys.argv[1]
+#start = sys.argv[2]
 count = 0
 appIdFile = "../appId/"+"appId_"+tag+".csv"
 
@@ -130,9 +131,16 @@ for id in open(appIdFile):
     for char in id:
         if char in "\n":
             id = id.replace(char,'')
+    fileName = tag + "/"+id+".csv"
     newFileName =tag+"/"+"parseNew_"+id+".csv"
+    '''
+    if os.path.isfile(fileName):
+        print(id+" exist!")
+    else:
+        print(id+" start")
+        parse(id)
+    '''
 
-    #find not yet parse id
     if os.path.isfile(newFileName):
         print(newFileName+' exist')
         count = count+1

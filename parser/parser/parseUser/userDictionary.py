@@ -8,7 +8,10 @@ import os
 import re
 import sys
 
-
+'''
+with open("PATH to .p file", "wb") as f:
+        pickle.dump(store, f)
+'''
 tag = sys.argv[1]
 
 fileList = os.listdir("../"+tag+"/finish")
@@ -19,7 +22,7 @@ userKey = {}
 for fileName in fileList:
     print('{0} start'.format(fileName))
     try:
-        if fileName != '.DS_Store' and fileName != 'userDictionary':
+        if fileName != '.DS_Store':
             fileName = '../'+tag+'/finish/' + fileName
             df = pd.read_csv(fileName)
             userName = list()
@@ -68,13 +71,10 @@ for fileName in fileList:
                 userValue['simulation'] = simulation[i]
                 userValue['sports'] = sports[i]
                 userValue['strategy'] = strategy[i]
-                #userKey[userName[i]] = userValue
-                user_list = userName[i].split("/")
-                userKey[user_list[len(user_list) - 2]] = userValue
+                userKey[userName[i]] = userValue
+
+            with open('../'+tag+'/finish/userDictionary', "wb") as f:
+                    pickle.dump(userKey, f)
     except:
         print('{0} error'.format(fileName))
         continue
-print(len(userKey))
-
-with open('../'+tag+'/finish/userDictionary_'+tag+'.p', "wb") as f:
-        pickle.dump(userKey, f)
