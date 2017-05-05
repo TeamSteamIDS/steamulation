@@ -16,8 +16,6 @@ tag = sys.argv[1]
 
 fileList = os.listdir("../"+tag+"/finish")
 userField = ['userLevel', 'action', 'adventure', 'racing', 'rpg', 'simulation', 'sports', 'strategy']
-userValue = {'userLevel':0, 'action':0, 'adventure':0, 'racing':0, 'rpg':0, 'simulation':0, 'sports':0, 'strategy':0 }
-
 userKey = {}
 for fileName in fileList:
     print('{0} start'.format(fileName))
@@ -63,6 +61,7 @@ for fileName in fileList:
                     strategy.append(each)
 
             for i in range(len(userName)):
+                userValue = {'userLevel':0, 'action':0, 'adventure':0, 'racing':0, 'rpg':0, 'simulation':0, 'sports':0, 'strategy':0 }
                 userValue['userLevel'] = userLevel[i]
                 userValue['action'] = action[i]
                 userValue['adventure'] = adventure[i]
@@ -76,6 +75,6 @@ for fileName in fileList:
     except:
         print('{0} error'.format(fileName))
         continue
-        
+
 with open('../../../dicts/userDictionary_'+tag+'.p', "wb") as f:
     pickle.dump(userKey, f)

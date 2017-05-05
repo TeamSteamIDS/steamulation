@@ -6,6 +6,6 @@ import os
 import re
 import sys
 
-with open("../../../dicts/userDictionary_racing.p", "rb") as f:
+with open("../../../dicts/userDictionary_rpg.p", "rb") as f:
     user = pickle.load(f)
-    print(len(user))
+    print(user)
