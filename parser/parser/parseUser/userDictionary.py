@@ -8,7 +8,6 @@ import os
 import re
 import sys
 
-
 #Build Genere of user diction
 #output will be /genere/finish/genere.p
 #python3 userDictionary.py "genere"
@@ -17,8 +16,6 @@ tag = sys.argv[1]
 
 fileList = os.listdir("../"+tag+"/finish")
 userField = ['userLevel', 'action', 'adventure', 'racing', 'rpg', 'simulation', 'sports', 'strategy']
-userValue = {'userLevel':0, 'action':0, 'adventure':0, 'racing':0, 'rpg':0, 'simulation':0, 'sports':0, 'strategy':0 }
-
 userKey = {}
 for fileName in fileList:
     print('{0} start'.format(fileName))
@@ -64,6 +61,7 @@ for fileName in fileList:
                     strategy.append(each)
 
             for i in range(len(userName)):
+                userValue = {'userLevel':0, 'action':0, 'adventure':0, 'racing':0, 'rpg':0, 'simulation':0, 'sports':0, 'strategy':0 }
                 userValue['userLevel'] = userLevel[i]
                 userValue['action'] = action[i]
                 userValue['adventure'] = adventure[i]
@@ -72,10 +70,11 @@ for fileName in fileList:
                 userValue['simulation'] = simulation[i]
                 userValue['sports'] = sports[i]
                 userValue['strategy'] = strategy[i]
-                userKey[userName[i]] = userValue
-
-            with open('../'+tag+'/finish/'+tag+'.p', "wb") as f:
-                    pickle.dump(userKey, f)
+                user_list = userName[i].split("/")
+                userKey[user_list[len(user_list) - 2]] = userValue
     except:
         print('{0} error'.format(fileName))
         continue
+
+with open('../../../dicts/userDictionary_'+tag+'.p', "wb") as f:
+    pickle.dump(userKey, f)

@@ -17,15 +17,15 @@ def classification():
 		classification[name] = g_list
 	with open("dicts/classification.p", "wb") as f:
 		pickle.dump(classification, f)
-			
+
 '''
 for key in classification:
 	for g_id in classification[key]:
 		path = ''
 		with open(path, "r") as f:
 		for line in f:
-'''	
-	
+'''
+
 
 def review(genre):
 	with open("dicts/classification.p", "rb") as f:
@@ -92,7 +92,7 @@ def review(genre):
 		pickle.dump(result, f)
 	with open("dicts/review.p", "wb") as f:
 		pickle.dump(review, f)
-	
-classification()				
+
+classification()
 l = ["racing"]
 review(l)
