@@ -1,5 +1,4 @@
 import pickle
-
 import csv
 
 def classification():
@@ -40,10 +39,11 @@ def review(genre):
 		path = 'parser/parser/' + g + '/finish/'
 		for g_id in classification[g]:
 			path_new = path + str(g_id) + '.csv'
-			print(path_new)
-			f = open(path_new, 'rt')
+			#print(path_new)
+			print(g_id)
 			cnt = 0
 			try:
+				f = open(path_new, 'rt')
 				reader = csv.reader(f)
 				for l in reader:
 					cnt = cnt + 1
@@ -64,7 +64,7 @@ def review(genre):
 						result[g_id] = {v['user_id']: v['recommend']}
 					# retrieve helpful
 					help_list = l[4].split(" people ")
-					print(l[4],help_list)
+					#print(l[4],help_list)
 					num_help_list = help_list[0].split(" of ")
 					num_feel_helpful = num_help_list[0].split("\t")[-1]
 					if len(num_help_list) == 1:
@@ -75,16 +75,18 @@ def review(genre):
 					else:
 						v['helpful'] = int(num_feel_helpful.replace(',',''))/int(num_help_list[1].replace(',',''))
 					#
+
 					if g_id not in game_user:
 						game_user[g_id] = {}
 					if v['user_id'] not in game_user[g_id]:
 						game_user[g_id][v['user_id']] = \
 						{'total_play_time':float(l[3].split(" hrs")[0].replace(',',''))}
+					#print(game_user)
 					review[rev_id] = v
+			except:
+				continue
 			finally:
 				f.close()
-
-	print(result)
 
 	with open("dicts/game_user.p", "wb") as f:
 		pickle.dump(game_user, f)
