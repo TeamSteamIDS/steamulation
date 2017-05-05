@@ -6,6 +6,10 @@ import os
 import re
 import sys
 
-with open("../../../dicts/userDictionary_rpg.p", "rb") as f:
+with open("../../../dicts/userDictionary_racing.p", "rb") as f:
     user = pickle.load(f)
-    print(user)
+
+
+#f = open('out.txt', 'w')
+#sys.stdout = f
+print(user['76561198053775355'])
