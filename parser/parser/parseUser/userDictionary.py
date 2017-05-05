@@ -8,10 +8,11 @@ import os
 import re
 import sys
 
-'''
-with open("PATH to .p file", "wb") as f:
-        pickle.dump(store, f)
-'''
+
+#Build Genere of user diction
+#output will be /genere/finish/genere.p
+#python3 userDictionary.py "genere"
+
 tag = sys.argv[1]
 
 fileList = os.listdir("../"+tag+"/finish")
@@ -73,7 +74,7 @@ for fileName in fileList:
                 userValue['strategy'] = strategy[i]
                 userKey[userName[i]] = userValue
 
-            with open('../'+tag+'/finish/userDictionary', "wb") as f:
+            with open('../'+tag+'/finish/'+tag+'.p', "wb") as f:
                     pickle.dump(userKey, f)
     except:
         print('{0} error'.format(fileName))
