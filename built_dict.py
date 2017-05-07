@@ -54,7 +54,7 @@ def review(genre):
 						continue
 					rev_id = str(g_id) + str(cnt)
 					v = {}
-					v['content'] = indicoio.emotion(l[-8])
+					v['content'] = l[-8]
 					v['game_id'] = g_id
 					# retrieve user_id
 					user_list = l[0].split("/")
@@ -91,13 +91,13 @@ def review(genre):
 			finally:
 				f.close()
 
-	with open("dicts/game_user.p", "wb") as f:
+	with open("dicts/game_user_action.p", "wb") as f:
 		pickle.dump(game_user, f)
-	with open("dicts/result_v2.p", "wb") as f:
+	with open("dicts/result_action.p", "wb") as f:
 		pickle.dump(result, f)
-	with open("dicts/review.p", "wb") as f:
+	with open("dicts/review_action.p", "wb") as f:
 		pickle.dump(review, f)
 	
 classification()				
-l = ["racing"]
+l = ["action"]
 review(l)
