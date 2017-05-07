@@ -14,23 +14,33 @@ def get_review_normalized(g_id, u_id):
         s.append(tup[1])
         if g_id == review[r_id]['game_id']:
             target.append(i)
-    #print('total review = ', len(list_of_review))
-    #print('target len = ', len(target))
-
-    zp = zscore(p)
-    zs = zscore(s)
+    print('total review = ', len(list_of_review))
+    print('target len = ', len(target))
     if len(target) == 0:
         return (0,0)
+    if np.std(p) == 0:
+        a = 0
     else:
+        print(p)
+        zp = zscore(p)
         val_p = [zp[x] for x in target]
+        a = np.mean(val_p)
+
+    if np.std(s) == 0:
+        b = 0
+    else:
+        print(s)
+        zs = zscore(s)
         val_s = [zs[x] for x in target]
-        return (np.mean(val_p), np.mean(val_s))
+        b = np.mean(val_s)
+    return (a, b)
 
 def get_review_pos_score(r_id):
     pattern = TextBlob(review[r_id]['content'])
     pol = pattern.sentiment[0]
     sub = pattern.sentiment[1]
     return (pol, sub)
+
 
 def get_num_games(g_id, u_id):
     target = ""
@@ -143,7 +153,7 @@ for g_id in result:
 
 #print(list(game_user.keys()))
 len_train = len(train)
-N = round(len_train/4)
+N = 1000
 X_train = np.zeros((N+1, 10))
 Y_train = np.zeros((N+1, 1))
 cnt = 0
