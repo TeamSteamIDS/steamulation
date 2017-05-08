@@ -12,7 +12,7 @@ import sys
 #output will be /genere/finish/genere.p
 #python3 userDictionary.py "genere"
 
-tags = ["sports"]
+tags = ["racing"]
 userField = ['userLevel', 'action', 'adventure', 'racing', 'rpg', 'simulation', 'sports', 'strategy']
 userKey = {}
 for tag in tags:
